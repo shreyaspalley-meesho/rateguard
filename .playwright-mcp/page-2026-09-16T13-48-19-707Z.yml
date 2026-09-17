@@ -1,0 +1,167 @@
+- generic [active] [ref=f26e1]:
+  - generic [ref=f26e2]:
+    - complementary [ref=f26e3]:
+      - generic [ref=f26e4]:
+        - img "Meesho" [ref=f26e5]
+        - generic [ref=f26e6]:
+          - generic [ref=f26e7]: RateGuard
+          - generic [ref=f26e8]: FM · SC v1
+      - navigation [ref=f26e9]:
+        - link "Home" [ref=f26e10] [cursor=pointer]:
+          - /url: /
+        - link "Submit rate" [ref=f26e120] [cursor=pointer]:
+          - /url: /submit
+        - link "My requests" [ref=f26e121] [cursor=pointer]:
+          - /url: /requests
+        - link "Rate lineage" [ref=f26e13] [cursor=pointer]:
+          - /url: /lineage
+        - link "Notifications" [ref=f26e14] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=f26e15]: Prototype · Data in browser
+    - generic [ref=f26e16]:
+      - banner [ref=f26e17]:
+        - generic [ref=f26e18]: Submit rate
+        - generic [ref=f26e20]:
+          - link "notifications" [ref=f26e21] [cursor=pointer]:
+            - /url: /notifications
+            - generic "notifications" [ref=f26e22]: 🔔
+          - combobox [ref=f26e23]:
+            - option "Ramesh Kumar · FM Cluster Head" [selected]
+            - option "Priya Menon · SC Business Team"
+            - option "Tajinder Kaur · Ops Head (FM)"
+            - option "Soumya Varma · Ops Head (SC)"
+            - option "Vidhi Sharma · BizFin"
+            - option "Ankita Agarwal · Controllership"
+            - option "Mekha Vijayakumar · Legal"
+            - option "Ops Excellence · Admin"
+            - option "Ajay Singh · Zonal Head (read-only)"
+          - generic [ref=f26e24]: RK
+      - main [ref=f26e25]:
+        - generic [ref=f26e122]:
+          - generic [ref=f26e123]:
+            - heading "Submit rate" [level=1] [ref=f26e124]
+            - generic [ref=f26e125]: FM
+          - paragraph [ref=f26e126]: FM Cluster Head flow — Old/New slab or Touchpoint. Guardrail evaluates as you type; route is decided before you submit.
+          - generic [ref=f26e127]:
+            - generic [ref=f26e128]:
+              - generic [ref=f26e129]:
+                - generic [ref=f26e130]: "1"
+                - heading "Location" [level=2] [ref=f26e131]
+              - generic [ref=f26e132]:
+                - generic [ref=f26e133]:
+                  - generic [ref=f26e134]:
+                    - text: Hub
+                    - generic [ref=f26e135]: (FM only)
+                  - combobox [ref=f26e136]:
+                    - option "Select a hub…"
+                    - option "SSY · Surat SSY · Surat · Standalone"
+                    - option "HUB14 · Hub 14 Whitefield · Whitefield · Standalone"
+                    - option "HUB9 · Hub 9 Koramangala · Koramangala · Standalone"
+                    - option "HUB47 · Hub 47 Mysuru · Mysuru · Mini Hub"
+                    - option "KTA · KTA (unmapped) · Kota · Standalone"
+                    - option "HUB31 · Hub 31 Whitefield · Whitefield · Standalone"
+                    - option "HUB5 · Hub 5 Pune · Pune · Mall Hub"
+                    - option "HUB22 · Hub 22 Jaipur · Jaipur · Seller Led Hub"
+                    - option "FMCP1 · FMCP Ahmedabad · Ahmedabad · FMCP" [selected]
+                - generic [ref=f26e196]:
+                  - generic [ref=f26e197]: FM
+                  - generic "Hub lifecycle status (KRD §1.2.13 / §2.2.14)" [ref=f26e198]: Go-live pending
+              - generic [ref=f26e199]:
+                - generic [ref=f26e200]:
+                  - generic [ref=f26e201]: Oracle ID
+                  - generic [ref=f26e202]: OR70220
+                - generic [ref=f26e203]:
+                  - generic [ref=f26e204]: Owner
+                  - generic [ref=f26e205]: Ramesh Kumar
+                - generic [ref=f26e206]:
+                  - generic [ref=f26e207]: Hub type
+                  - generic [ref=f26e208]: FMCP
+                - generic [ref=f26e209]:
+                  - generic [ref=f26e210]: Zone
+                  - generic [ref=f26e211]: West
+              - generic [ref=f26e212]: "Unit: ₹/shipment (Fwd + Rev) + ₹/bag · flat rates · Guardrail: not applicable · Approval: BizFin"
+              - generic [ref=f26e137]:
+                - generic [ref=f26e138]: Transport partner (vendor)
+                - 'combobox "Search partner by name or #supplierNumber…" [ref=f26e139]'
+            - generic [ref=f26e140]:
+              - generic [ref=f26e141]:
+                - generic [ref=f26e142]: "2"
+                - heading "Slab structure" [level=2] [ref=f26e143]
+                - generic [ref=f26e144]: Old vs New — decided by the hub type
+              - generic [ref=f26e288]:
+                - generic [ref=f26e289]: FMCP uses flat rates — no slab structure
+                - generic [ref=f26e290]: "KRD §1.1.2: Fwd + Rev + Bag rates are captured in step 3. Every FMCP submission routes to BizFin."
+            - generic [ref=f26e146]:
+              - generic [ref=f26e147]:
+                - generic [ref=f26e148]: "3"
+                - heading "FMCP flat rates" [level=2] [ref=f26e291]
+                - generic [ref=f26e150]: FMCP has no tiers — flat rates per KRD §1.1.2
+              - generic [ref=f26e292]:
+                - generic [ref=f26e293]:
+                  - generic [ref=f26e294]:
+                    - generic [ref=f26e295]: Fwd rate (₹/shipment)
+                    - spinbutton "e.g. 0.20" [ref=f26e296]
+                    - generic [ref=f26e297]: FM hub → FMCP
+                  - generic [ref=f26e298]:
+                    - generic [ref=f26e299]: Rev rate (₹/shipment)
+                    - spinbutton "e.g. 0.30" [ref=f26e300]
+                    - generic [ref=f26e301]: Seller-to-SC → FMCP
+                  - generic [ref=f26e302]:
+                    - generic [ref=f26e303]: Bag rate (₹/bag)
+                    - spinbutton "e.g. 14.00" [ref=f26e304]
+                    - generic [ref=f26e305]: Per bag flat
+                - generic [ref=f26e307]:
+                  - generic [ref=f26e308]: "FMCP: no guardrail applies — routes to BizFin"
+                  - generic [ref=f26e309]: Consolidation rate per KRD §1.1.2 · flat structure, no tier slabs.
+            - generic [ref=f26e174]:
+              - generic [ref=f26e175]:
+                - generic [ref=f26e176]: "4"
+                - heading "Dates & remarks" [level=2] [ref=f26e177]
+              - generic [ref=f26e178]:
+                - generic [ref=f26e179]:
+                  - generic [ref=f26e180]: Effective from
+                  - textbox [ref=f26e181]: 2026-09-16
+                - generic [ref=f26e182]:
+                  - generic [ref=f26e183]: Negotiated on
+                  - textbox [ref=f26e184]: 2026-09-16
+              - generic [ref=f26e185]:
+                - generic [ref=f26e186]: Remarks approver reads this first
+                - textbox "Context, negotiation notes, why this rate…" [ref=f26e187]
+            - generic [ref=f26e188]:
+              - generic [ref=f26e189]:
+                - generic [ref=f26e190]: "5"
+                - heading "Review & submit" [level=2] [ref=f26e191]
+              - generic [ref=f26e261]:
+                - generic [ref=f26e262]:
+                  - generic [ref=f26e263]: Hub
+                  - generic [ref=f26e264]: FMCP1 · FMCP Ahmedabad
+                - generic [ref=f26e265]:
+                  - generic [ref=f26e266]: Oracle ID
+                  - generic [ref=f26e267]: OR70220
+                - generic [ref=f26e268]:
+                  - generic [ref=f26e269]: Change type
+                  - generic [ref=f26e270]: FM-FMCP
+                - generic [ref=f26e271]:
+                  - generic [ref=f26e272]: Unit
+                  - generic [ref=f26e273]: ₹/shipment + ₹/bag (flat)
+                - generic [ref=f26e274]:
+                  - generic [ref=f26e275]: Structure
+                  - generic [ref=f26e276]: Flat (FMCP)
+                - generic [ref=f26e277]:
+                  - generic [ref=f26e278]: Effective from
+                  - generic [ref=f26e279]: 2026-09-16
+                - generic [ref=f26e280]:
+                  - generic [ref=f26e281]: Negotiated
+                  - generic [ref=f26e282]: 2026-09-16
+                - generic [ref=f26e283]:
+                  - generic [ref=f26e284]: Guardrail
+                  - generic [ref=f26e285]: v12 · not-applicable
+              - generic [ref=f26e286]:
+                - text: "On submit: routed to"
+                - strong [ref=f26e287]: BizFin
+                - text: · TTL 14 days · Rate stays Draft-equivalent until the approver decides.
+              - generic [ref=f26e193]:
+                - button "Submit request" [disabled] [ref=f26e194]
+                - generic [ref=f26e195]: Fill in fwd rate, rev rate, bag rate to submit.
+  - button "Open Next.js Dev Tools" [ref=f26e105] [cursor=pointer]
+  - alert [ref=f26e119]

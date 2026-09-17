@@ -1,0 +1,135 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - complementary [ref=f14e3]:
+      - generic [ref=f14e4]:
+        - img "Meesho" [ref=f14e5]
+        - generic [ref=f14e6]:
+          - generic [ref=f14e7]: RateGuard
+          - generic [ref=f14e8]: FM · SC v1
+      - navigation [ref=f14e9]:
+        - link "Home" [ref=f14e10] [cursor=pointer]:
+          - /url: /
+        - link "Submit rate" [ref=f14e11] [cursor=pointer]:
+          - /url: /submit
+        - link "My requests" [ref=f14e12] [cursor=pointer]:
+          - /url: /requests
+        - link "Rate lineage" [ref=f14e13] [cursor=pointer]:
+          - /url: /lineage
+        - link "Notifications" [ref=f14e14] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=f14e15]: Prototype · Data in browser
+    - generic [ref=f14e16]:
+      - banner [ref=f14e17]:
+        - generic [ref=f14e18]: Submit rate
+        - generic [ref=f14e20]:
+          - link "notifications" [ref=f14e21] [cursor=pointer]:
+            - /url: /notifications
+            - generic "notifications" [ref=f14e22]: 🔔
+          - combobox [ref=f14e23]:
+            - option "Ramesh Kumar · FM Cluster Head" [selected]
+            - option "Priya Menon · SC Business Team"
+            - option "Tajinder Kaur · Ops Head (FM)"
+            - option "Soumya Varma · Ops Head (SC)"
+            - option "Vidhi Sharma · BizFin"
+            - option "Ankita Agarwal · Controllership"
+            - option "Mekha Vijayakumar · Legal"
+            - option "Ops Excellence · Admin"
+            - option "Ajay Singh · Zonal Head (read-only)"
+          - generic [ref=f14e24]: RK
+      - main [ref=f14e25]:
+        - generic [ref=f14e26]:
+          - generic [ref=f14e27]:
+            - heading "Submit rate" [level=1] [ref=f14e28]
+            - generic [ref=f14e29]: FM
+          - paragraph [ref=f14e30]: FM Cluster Head flow — Old/New slab or Touchpoint. Guardrail evaluates as you type; route is decided before you submit.
+          - generic [ref=f14e31]:
+            - generic [ref=f14e32]:
+              - generic [ref=f14e33]:
+                - generic [ref=f14e34]: "1"
+                - heading "Location" [level=2] [ref=f14e35]
+              - generic [ref=f14e37]:
+                - generic [ref=f14e38]:
+                  - text: Hub
+                  - generic [ref=f14e39]: (FM only)
+                - combobox [ref=f14e40]:
+                  - option "Select a hub…" [selected]
+                  - option "SSY · Surat SSY · Surat · Standalone"
+                  - option "HUB14 · Hub 14 Whitefield · Whitefield · Standalone"
+                  - option "HUB9 · Hub 9 Koramangala · Koramangala · Standalone"
+                  - option "HUB47 · Hub 47 Mysuru · Mysuru · Mini Hub"
+                  - option "KTA · KTA (unmapped) · Kota · Standalone"
+                  - option "HUB31 · Hub 31 Whitefield · Whitefield · Standalone"
+                  - option "HUB5 · Hub 5 Pune · Pune · Mall Hub"
+                  - option "HUB22 · Hub 22 Jaipur · Jaipur · Seller Led Hub"
+                  - option "FMCP1 · FMCP Ahmedabad · Ahmedabad · FMCP"
+              - generic [ref=f14e41]:
+                - generic [ref=f14e42]: Transport partner (vendor)
+                - 'combobox "Search partner by name or #supplierNumber…" [ref=f14e43]'
+            - generic [ref=f14e44]:
+              - generic [ref=f14e45]:
+                - generic [ref=f14e46]: "2"
+                - heading "Change type" [level=2] [ref=f14e47]
+              - generic [ref=f14e48]:
+                - button "FM-OLD 5 tiers · 5,000 wide · ₹/shipment slabbed" [ref=f14e49]:
+                  - generic [ref=f14e50]: FM-OLD
+                  - generic [ref=f14e51]: 5 tiers · 5,000 wide · ₹/shipment slabbed
+                - button "FM-NEW 6 tiers · 2,500 wide · ₹/shipment slabbed" [ref=f14e52]:
+                  - generic [ref=f14e53]: FM-NEW
+                  - generic [ref=f14e54]: 6 tiers · 2,500 wide · ₹/shipment slabbed
+                - button "FM-TP Flat touchpoint · ₹/shipment" [ref=f14e55]:
+                  - generic [ref=f14e56]: FM-TP
+                  - generic [ref=f14e57]: Flat touchpoint · ₹/shipment
+                - 'button "FM-FMCP FMCP flat rates: fwd + rev + bag · no tiers · BizFin" [ref=f14e58]':
+                  - generic [ref=f14e59]: FM-FMCP
+                  - generic [ref=f14e60]: "FMCP flat rates: fwd + rev + bag · no tiers · BizFin"
+            - generic [ref=f14e61]:
+              - generic [ref=f14e62]:
+                - generic [ref=f14e63]: "3"
+                - heading "Tier values" [level=2] [ref=f14e64]
+                - generic [ref=f14e65]: Guardrail evaluates on every keystroke
+              - generic [ref=f14e66]:
+                - generic [ref=f14e67]: Slab
+                - generic [ref=f14e68]: Rate ₹
+                - generic [ref=f14e69]: Ceiling
+              - generic [ref=f14e70]:
+                - generic [ref=f14e71]:
+                  - generic [ref=f14e72]: Tier 1 · ≤ 2500 shipments
+                  - spinbutton "0.00" [ref=f14e73]
+                - generic [ref=f14e74]:
+                  - generic [ref=f14e75]: Tier 2 · ≤ 5000 shipments
+                  - spinbutton "0.00" [ref=f14e76]
+                - generic [ref=f14e77]:
+                  - generic [ref=f14e78]: Tier 3 · ≤ 7500 shipments
+                  - spinbutton "0.00" [ref=f14e79]
+                - generic [ref=f14e80]:
+                  - generic [ref=f14e81]: Tier 4 · ≤ 10000 shipments
+                  - spinbutton "0.00" [ref=f14e82]
+                - generic [ref=f14e83]:
+                  - generic [ref=f14e84]: Tier 5 · ≤ 12500 shipments
+                  - spinbutton "0.00" [ref=f14e85]
+                - generic [ref=f14e86]:
+                  - generic [ref=f14e87]: Tier 6 · > 12500 shipments
+                  - spinbutton "0.00" [ref=f14e88]
+            - generic [ref=f14e89]:
+              - generic [ref=f14e90]:
+                - generic [ref=f14e91]: "4"
+                - heading "Dates & remarks" [level=2] [ref=f14e92]
+              - generic [ref=f14e93]:
+                - generic [ref=f14e94]:
+                  - generic [ref=f14e95]: Effective from
+                  - textbox [ref=f14e96]: 2026-09-16
+                - generic [ref=f14e97]:
+                  - generic [ref=f14e98]: Negotiated on
+                  - textbox [ref=f14e99]: 2026-09-16
+              - generic [ref=f14e100]:
+                - generic [ref=f14e101]: Remarks approver reads this first
+                - textbox "Context, negotiation notes, why this rate…" [ref=f14e102]
+            - generic [ref=f14e103]:
+              - generic [ref=f14e104]:
+                - generic [ref=f14e105]: "5"
+                - heading "Review & submit" [level=2] [ref=f14e106]
+              - paragraph [ref=f14e107]: Complete the previous steps to see the review.
+              - generic [ref=f14e108]:
+                - button "Submit request" [disabled] [ref=f14e109]
+                - generic [ref=f14e110]: Fill in hub, all tier rates to submit.
+  - button "Open Next.js Dev Tools" [ref=f14e116] [cursor=pointer]

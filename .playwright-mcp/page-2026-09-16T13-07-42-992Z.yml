@@ -1,0 +1,145 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - img "Meesho" [ref=e5]
+        - generic [ref=e6]:
+          - generic [ref=e7]: RateGuard
+          - generic [ref=e8]: FM · SC v1
+      - navigation [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - link "Submit rate" [ref=e11] [cursor=pointer]:
+          - /url: /submit
+        - link "My requests" [ref=e12] [cursor=pointer]:
+          - /url: /requests
+        - link "Rate lineage" [ref=e13] [cursor=pointer]:
+          - /url: /lineage
+        - link "Notifications" [ref=e14] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=e15]: Prototype · Data in browser
+    - generic [ref=e16]:
+      - banner [ref=e17]:
+        - generic [ref=e18]: Submit rate
+        - generic [ref=e20]:
+          - link "notifications" [ref=e21] [cursor=pointer]:
+            - /url: /notifications
+            - generic "notifications" [ref=e22]: 🔔
+          - combobox [ref=e23]:
+            - option "Ramesh Kumar · FM Cluster Head"
+            - option "Priya Menon · SC Business Team" [selected]
+            - option "Tajinder Kaur · Ops Head (FM)"
+            - option "Soumya Varma · Ops Head (SC)"
+            - option "Vidhi Sharma · BizFin"
+            - option "Ankita Agarwal · Controllership"
+            - option "Mekha Vijayakumar · Legal"
+            - option "Ops Excellence · Admin"
+            - option "Ajay Singh · Zonal Head (read-only)"
+          - generic [ref=e24]: PM
+      - main [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - heading "Submit rate" [level=1] [ref=e28]
+            - generic [ref=e29]: SC
+          - paragraph [ref=e30]: SC Business Team flow — no ceilings are published for SC yet, so every submission routes to BizFin.
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - generic [ref=e33]:
+                - generic [ref=e34]: "1"
+                - heading "Location" [level=2] [ref=e35]
+              - generic [ref=e37]:
+                - generic [ref=e38]:
+                  - text: Hub
+                  - generic [ref=e39]: (SC only)
+                - combobox [ref=e40]:
+                  - option "Select a hub…" [selected]
+                  - option "BLR7 · BLR7 CrossDock · Bengaluru · CrossDock"
+                  - option "FMSC1 · FMSC Mumbai · Mumbai · FMSC"
+              - generic [ref=e41]:
+                - generic [ref=e42]: Transport partner (vendor)
+                - 'combobox "Search partner by name or #supplierNumber…" [ref=e43]'
+            - generic [ref=e44]:
+              - generic [ref=e45]:
+                - generic [ref=e46]: "2"
+                - heading "Change type" [level=2] [ref=e47]
+              - generic [ref=e48]:
+                - button "SC-01 SC structure · routes to BizFin" [ref=e49]:
+                  - generic [ref=e50]: SC-01
+                  - generic [ref=e51]: SC structure · routes to BizFin
+                - button "SC-02 SC structure · routes to BizFin" [ref=e52]:
+                  - generic [ref=e53]: SC-02
+                  - generic [ref=e54]: SC structure · routes to BizFin
+                - button "SC-03 SC structure · routes to BizFin" [ref=e55]:
+                  - generic [ref=e56]: SC-03
+                  - generic [ref=e57]: SC structure · routes to BizFin
+            - generic [ref=e58]:
+              - generic [ref=e59]:
+                - generic [ref=e60]: "3"
+                - heading "Tier values" [level=2] [ref=e61]
+                - generic [ref=e62]: No SC ceilings — verdict is informational
+              - generic [ref=e63]:
+                - generic [ref=e64]: Slab
+                - generic [ref=e65]: Rate ₹
+                - generic [ref=e66]: Ceiling
+              - generic [ref=e67]:
+                - generic [ref=e68]:
+                  - generic [ref=e69]: Tier 1 · ≤ 5000 shipments
+                  - spinbutton "0.00" [ref=e70]
+                - generic [ref=e71]:
+                  - generic [ref=e72]: Tier 2 · ≤ 12000 shipments
+                  - spinbutton "0.00" [ref=e73]
+                - generic [ref=e74]:
+                  - generic [ref=e75]: Tier 3 · ≤ 25000 shipments
+                  - spinbutton "0.00" [ref=e76]
+                - generic [ref=e77]:
+                  - generic [ref=e78]: Tier 4 · ≤ 40000 shipments
+                  - spinbutton "0.00" [ref=e79]
+                - generic [ref=e80]:
+                  - generic [ref=e81]: Tier 5 · > 40000 shipments
+                  - spinbutton "0.00" [ref=e82]
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - generic [ref=e85]: "4"
+                - heading "Dates & commercial clauses" [level=2] [ref=e86]
+              - generic [ref=e87]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]: Effective from
+                  - textbox [ref=e90]: 2026-09-16
+                - generic [ref=e91]:
+                  - generic [ref=e92]: Negotiated on
+                  - textbox [ref=e93]: 2026-09-16
+              - generic [ref=e94]:
+                - generic [ref=e95]: Remarks approver reads this first
+                - textbox "Context, negotiation notes, why this rate…" [ref=e96]
+              - generic [ref=e97]:
+                - generic [ref=e98]: Clauses for SC
+                - generic [ref=e99]:
+                  - generic [ref=e100]:
+                    - generic [ref=e101]: Minimum Guarantee (₹) optional
+                    - spinbutton "Monthly amount" [ref=e102]
+                    - generic [ref=e103]: Monthly amount
+                  - generic [ref=e104]:
+                    - generic [ref=e105]: MG trigger
+                    - textbox "e.g. Below 1,20,000 shipments" [ref=e106]
+                    - generic [ref=e107]: When MG becomes payable
+                  - generic [ref=e108]:
+                    - generic [ref=e109]: Lock-in (months)
+                    - spinbutton "e.g. 12" [ref=e110]
+                    - generic [ref=e111]: MG stays payable through
+                  - generic [ref=e112]:
+                    - generic [ref=e113]: Notice period (months)
+                    - spinbutton "e.g. 3" [ref=e114]
+                    - generic [ref=e115]: MG payable through notice on offboarding
+              - generic [ref=e117] [cursor=pointer]:
+                - checkbox "Add an incentive to this rate card — or raise it later as its own submission" [ref=e118]
+                - generic [ref=e119]: Add an incentive to this rate card
+                - generic [ref=e120]: — or raise it later as its own submission
+            - generic [ref=e121]:
+              - generic [ref=e122]:
+                - generic [ref=e123]: "5"
+                - heading "Review & submit" [level=2] [ref=e124]
+              - paragraph [ref=e125]: Complete the previous steps to see the review.
+              - generic [ref=e126]:
+                - button "Submit request" [disabled] [ref=e127]
+                - generic [ref=e128]: Fill in hub, all tier rates to submit.
+  - alert [ref=e129]

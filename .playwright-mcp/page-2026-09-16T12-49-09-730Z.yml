@@ -1,0 +1,86 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - complementary [ref=f4e3]:
+      - generic [ref=f4e4]:
+        - img "Meesho" [ref=f4e5]
+        - generic [ref=f4e6]:
+          - generic [ref=f4e7]: RateGuard
+          - generic [ref=f4e8]: FM · SC v1
+      - navigation [ref=f4e9]:
+        - link "Home" [ref=f4e10] [cursor=pointer]:
+          - /url: /
+        - link "Submit rate" [ref=f4e11] [cursor=pointer]:
+          - /url: /submit
+        - link "My requests" [ref=f4e12] [cursor=pointer]:
+          - /url: /requests
+        - link "Rate lineage" [ref=f4e13] [cursor=pointer]:
+          - /url: /lineage
+        - link "Notifications" [ref=f4e14] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=f4e15]: Prototype · Data in browser
+    - generic [ref=f4e16]:
+      - banner [ref=f4e17]:
+        - generic [ref=f4e18]: RateGuard
+        - generic [ref=f4e20]:
+          - link "notifications" [ref=f4e21] [cursor=pointer]:
+            - /url: /notifications
+            - generic "notifications" [ref=f4e22]: 🔔
+          - combobox [ref=f4e23]:
+            - option "Ramesh Kumar · FM Cluster Head" [selected]
+            - option "Priya Menon · SC Business Team"
+            - option "Tajinder Kaur · Ops Head (FM)"
+            - option "Soumya Varma · Ops Head (SC)"
+            - option "Vidhi Sharma · BizFin"
+            - option "Ankita Agarwal · Controllership"
+            - option "Mekha Vijayakumar · Legal"
+            - option "Ops Excellence · Admin"
+            - option "Ajay Singh · Zonal Head (read-only)"
+          - generic [ref=f4e24]: RK
+      - main [ref=f4e25]:
+        - generic [ref=f4e26]:
+          - generic [ref=f4e28]:
+            - heading "Approvals queue" [level=1] [ref=f4e29]
+            - paragraph [ref=f4e30]: Oldest first · 2 pending
+          - table [ref=f4e32]:
+            - rowgroup [ref=f4e33]:
+              - row [ref=f4e34]:
+                - columnheader "ID" [ref=f4e35]
+                - columnheader "Hub" [ref=f4e36]
+                - columnheader "Partner" [ref=f4e37]
+                - columnheader "Type" [ref=f4e38]
+                - columnheader "Submitter" [ref=f4e39]
+                - columnheader "Submitted" [ref=f4e40]
+                - columnheader "Aging" [ref=f4e41]
+                - columnheader "TTL" [ref=f4e42]
+                - columnheader [ref=f4e43]
+            - rowgroup [ref=f4e44]:
+              - row [ref=f4e45]:
+                - cell "RC-FM-HUB9-202609-001" [ref=f4e46]
+                - cell "HUB9" [ref=f4e47]
+                - 'cell "Ecom Express Private Limited #10058" [ref=f4e48]':
+                  - text: Ecom Express Private Limited
+                  - generic [ref=f4e49]: "#10058"
+                - cell "FM-OLD" [ref=f4e50]
+                - cell "Ajay Singh" [ref=f4e51]
+                - cell "Sep 13, 2026" [ref=f4e52]
+                - cell "3d" [ref=f4e53]
+                - cell "11d" [ref=f4e54]
+                - cell [ref=f4e55]:
+                  - link "Decide →" [ref=f4e56] [cursor=pointer]:
+                    - /url: /approvals/RC-FM-HUB9-202609-001
+              - row [ref=f4e57]:
+                - cell "RC-SC-BLR7-202609-001" [ref=f4e58]
+                - cell "BLR7" [ref=f4e59]
+                - 'cell "Busybees Logistics Solutions Pvt Ltd #10059" [ref=f4e60]':
+                  - text: Busybees Logistics Solutions Pvt Ltd
+                  - generic [ref=f4e61]: "#10059"
+                - cell "SC-01" [ref=f4e62]
+                - cell "Priya Menon" [ref=f4e63]
+                - cell "Sep 14, 2026" [ref=f4e64]
+                - cell "2d" [ref=f4e65]
+                - cell "12d" [ref=f4e66]
+                - cell [ref=f4e67]:
+                  - link "Decide →" [ref=f4e68] [cursor=pointer]:
+                    - /url: /approvals/RC-SC-BLR7-202609-001
+  - button "Open Next.js Dev Tools" [ref=f4e74] [cursor=pointer]
+  - alert [ref=f4e78]

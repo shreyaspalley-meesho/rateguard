@@ -1,0 +1,127 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - img "Meesho" [ref=e5]
+        - generic [ref=e6]:
+          - generic [ref=e7]: RateGuard
+          - generic [ref=e8]: FM · SC v1
+      - navigation [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - link "Submit rate" [ref=e11] [cursor=pointer]:
+          - /url: /submit
+        - link "My requests" [ref=e12] [cursor=pointer]:
+          - /url: /requests
+        - link "Rate lineage" [ref=e13] [cursor=pointer]:
+          - /url: /lineage
+        - link "Notifications" [ref=e14] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=e15]: Prototype · Data in browser
+    - generic [ref=e16]:
+      - banner [ref=e17]:
+        - generic [ref=e18]: Submit rate
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - generic [ref=e22]: ⌕
+            - textbox "Global search" [ref=e23]:
+              - /placeholder: Search hubs, Oracle ID, vendor…
+          - link "notifications 1" [ref=e24] [cursor=pointer]:
+            - /url: /notifications
+            - generic "notifications" [ref=e25]: 🔔
+            - generic [ref=e26]: "1"
+          - combobox [ref=e27]:
+            - option "Ramesh Kumar · FM Cluster Head" [selected]
+            - option "Priya Menon · SC Business Team"
+            - option "Tajinder Kaur · Ops Head (FM)"
+            - option "Soumya Varma · Ops Head (SC)"
+            - option "Vidhi Sharma · BizFin"
+            - option "Ankita Agarwal · Controllership"
+            - option "Mekha Vijayakumar · Legal"
+            - option "Ops Excellence · Admin"
+            - option "Ajay Singh · Zonal Head (read-only)"
+          - generic [ref=e28]: RK
+      - main [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - heading "Submit rate" [level=1] [ref=e32]
+            - generic [ref=e33]: FM
+          - paragraph [ref=e34]: FM Cluster Head flow — Old/New slab or Touchpoint. Guardrail evaluates as you type; route is decided before you submit.
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - generic [ref=e37]:
+                - generic [ref=e38]: "1"
+                - heading "Location" [level=2] [ref=e39]
+              - generic [ref=e41]:
+                - generic [ref=e42]:
+                  - text: Hub
+                  - generic [ref=e43]: (FM only)
+                - combobox [ref=e44]:
+                  - option "Select a hub…" [selected]
+                  - option "SSY · Surat SSY · Surat · Standalone"
+                  - option "HUB14 · Hub 14 Whitefield · Bengaluru · Standalone"
+                  - option "HUB9 · Hub 9 Koramangala · Bengaluru · Standalone"
+                  - option "HUB47 · Hub 47 Mysore · Mysore · Mini Hub"
+                  - option "KTA · KTA (unmapped) · Kota · Standalone"
+                  - option "HUB31 · Hub 31 Whitefield · Bengaluru · Standalone"
+                  - option "HUB5 · Hub 5 Pune · Pune · Mall Hub"
+                  - option "HUB22 · Hub 22 Jaipur · Jaipur · Seller Led Hub"
+                  - option "FMCP1 · FMCP Ahemdabad · Ahemdabad · FMCP"
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - generic [ref=e47]: "2"
+                - heading "Slab structure" [level=2] [ref=e48]
+                - generic [ref=e49]: Old vs New — decided by the hub type
+              - paragraph [ref=e50]: Pick a hub above — the slab structure depends on the hub type.
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - generic [ref=e53]: "3"
+                - heading "Tier values" [level=2] [ref=e54]
+                - generic [ref=e55]: Guardrail evaluates on every keystroke
+              - generic [ref=e56]:
+                - generic [ref=e57]: Slab
+                - generic [ref=e58]: Rate ₹
+                - generic [ref=e59]: Ceiling
+              - generic [ref=e60]:
+                - generic [ref=e61]:
+                  - generic [ref=e62]: Tier 1 · ≤ 2500 shipments
+                  - spinbutton "0.00" [ref=e63]
+                - generic [ref=e64]:
+                  - generic [ref=e65]: Tier 2 · ≤ 5000 shipments
+                  - spinbutton "0.00" [ref=e66]
+                - generic [ref=e67]:
+                  - generic [ref=e68]: Tier 3 · ≤ 7500 shipments
+                  - spinbutton "0.00" [ref=e69]
+                - generic [ref=e70]:
+                  - generic [ref=e71]: Tier 4 · ≤ 10000 shipments
+                  - spinbutton "0.00" [ref=e72]
+                - generic [ref=e73]:
+                  - generic [ref=e74]: Tier 5 · ≤ 12500 shipments
+                  - spinbutton "0.00" [ref=e75]
+                - generic [ref=e76]:
+                  - generic [ref=e77]: Tier 6 · > 12500 shipments
+                  - spinbutton "0.00" [ref=e78]
+            - generic [ref=e79]:
+              - generic [ref=e80]:
+                - generic [ref=e81]: "4"
+                - heading "Dates & remarks" [level=2] [ref=e82]
+              - generic [ref=e83]:
+                - generic [ref=e84]:
+                  - generic [ref=e85]: Effective from
+                  - textbox [ref=e86]: 2026-09-17
+                - generic [ref=e87]:
+                  - generic [ref=e88]: Negotiated on
+                  - textbox [ref=e89]: 2026-09-17
+              - generic [ref=e90]:
+                - generic [ref=e91]: Remarks approver reads this first
+                - textbox "Context, negotiation notes, why this rate…" [ref=e92]
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - generic [ref=e95]: "5"
+                - heading "Review & submit" [level=2] [ref=e96]
+              - paragraph [ref=e97]: Complete the previous steps to see the review.
+              - generic [ref=e98]:
+                - button "Submit request" [disabled] [ref=e99]
+                - generic [ref=e100]: Fill in hub, hub type, all tier rates to submit.
+  - button "Open Next.js Dev Tools" [ref=e106] [cursor=pointer]
+  - alert [ref=e110]

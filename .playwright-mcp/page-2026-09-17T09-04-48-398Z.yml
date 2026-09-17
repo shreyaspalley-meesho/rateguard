@@ -1,0 +1,47 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - complementary [ref=f8e3]:
+      - generic [ref=f8e4]:
+        - img "Meesho" [ref=f8e5]
+        - generic [ref=f8e6]:
+          - generic [ref=f8e7]: RateGuard
+          - generic [ref=f8e8]: FM · SC v1
+      - navigation [ref=f8e9]:
+        - link "Home" [ref=f8e10] [cursor=pointer]:
+          - /url: /
+        - link "Submit rate" [ref=f8e11] [cursor=pointer]:
+          - /url: /submit
+        - link "My requests" [ref=f8e12] [cursor=pointer]:
+          - /url: /requests
+        - link "Rate lineage" [ref=f8e13] [cursor=pointer]:
+          - /url: /lineage
+        - link "Notifications" [ref=f8e14] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=f8e15]: Prototype · Data in browser
+    - generic [ref=f8e16]:
+      - banner [ref=f8e17]:
+        - generic [ref=f8e18]: Submit rate
+        - generic [ref=f8e20]:
+          - generic [ref=f8e21]:
+            - generic [ref=f8e22]: ⌕
+            - textbox "Global search" [ref=f8e23]:
+              - /placeholder: Search hubs, Oracle ID, vendor…
+          - link "notifications 1" [ref=f8e24] [cursor=pointer]:
+            - /url: /notifications
+            - generic "notifications" [ref=f8e25]: 🔔
+            - generic [ref=f8e26]: "1"
+          - combobox [ref=f8e27]:
+            - option "Ramesh Kumar · FM Cluster Head" [selected]
+            - option "Priya Menon · SC Business Team"
+            - option "Tajinder Kaur · Ops Head (FM)"
+            - option "Soumya Varma · Ops Head (SC)"
+            - option "Vidhi Sharma · BizFin"
+            - option "Ankita Agarwal · Controllership"
+            - option "Mekha Vijayakumar · Legal"
+            - option "Ops Excellence · Admin"
+            - option "Ajay Singh · Zonal Head (read-only)"
+          - generic [ref=f8e28]: RK
+      - main [ref=f8e29]:
+        - generic [ref=f8e30]: Loading…
+  - button "Open Next.js Dev Tools" [ref=f8e36] [cursor=pointer]
+  - alert [ref=f8e40]

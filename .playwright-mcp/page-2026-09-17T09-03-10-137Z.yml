@@ -1,0 +1,89 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - complementary [ref=f5e3]:
+      - generic [ref=f5e4]:
+        - img "Meesho" [ref=f5e5]
+        - generic [ref=f5e6]:
+          - generic [ref=f5e7]: RateGuard
+          - generic [ref=f5e8]: FM · SC v1
+      - navigation [ref=f5e9]:
+        - link "Home" [ref=f5e10] [cursor=pointer]:
+          - /url: /
+        - link "Submit rate" [ref=f5e11] [cursor=pointer]:
+          - /url: /submit
+        - link "My requests" [ref=f5e12] [cursor=pointer]:
+          - /url: /requests
+        - link "Rate lineage" [ref=f5e13] [cursor=pointer]:
+          - /url: /lineage
+        - link "Notifications" [ref=f5e14] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=f5e15]: Prototype · Data in browser
+    - generic [ref=f5e16]:
+      - banner [ref=f5e17]:
+        - generic [ref=f5e18]: RateGuard
+        - generic [ref=f5e20]:
+          - generic [ref=f5e21]:
+            - generic [ref=f5e22]: ⌕
+            - textbox "Global search" [ref=f5e23]:
+              - /placeholder: Search hubs, Oracle ID, vendor…
+          - link "notifications" [ref=f5e24] [cursor=pointer]:
+            - /url: /notifications
+            - generic "notifications" [ref=f5e25]: 🔔
+          - combobox [ref=f5e26]:
+            - option "Ramesh Kumar · FM Cluster Head" [selected]
+            - option "Priya Menon · SC Business Team"
+            - option "Tajinder Kaur · Ops Head (FM)"
+            - option "Soumya Varma · Ops Head (SC)"
+            - option "Vidhi Sharma · BizFin"
+            - option "Ankita Agarwal · Controllership"
+            - option "Mekha Vijayakumar · Legal"
+            - option "Ops Excellence · Admin"
+            - option "Ajay Singh · Zonal Head (read-only)"
+          - generic [ref=f5e27]: RK
+      - main [ref=f5e28]:
+        - generic [ref=f5e29]:
+          - generic [ref=f5e31]:
+            - heading "Approvals queue" [level=1] [ref=f5e32]
+            - paragraph [ref=f5e33]: Oldest first · 2 pending
+          - table [ref=f5e35]:
+            - rowgroup [ref=f5e36]:
+              - row [ref=f5e37]:
+                - columnheader "ID" [ref=f5e38]
+                - columnheader "Hub" [ref=f5e39]
+                - columnheader "Partner" [ref=f5e40]
+                - columnheader "Type" [ref=f5e41]
+                - columnheader "Submitter" [ref=f5e42]
+                - columnheader "Submitted" [ref=f5e43]
+                - columnheader "Aging" [ref=f5e44]
+                - columnheader "TTL" [ref=f5e45]
+                - columnheader [ref=f5e46]
+            - rowgroup [ref=f5e47]:
+              - row [ref=f5e48]:
+                - cell "RC-FM-HUB9-202609-001" [ref=f5e49]
+                - cell "HUB9" [ref=f5e50]
+                - 'cell "Ecom Express Private Limited #10058" [ref=f5e51]':
+                  - text: Ecom Express Private Limited
+                  - generic [ref=f5e52]: "#10058"
+                - cell "FM-OLD" [ref=f5e53]
+                - cell "Ajay Singh" [ref=f5e54]
+                - cell "Sep 14, 2026" [ref=f5e55]
+                - cell "3d" [ref=f5e56]
+                - cell "11d" [ref=f5e57]
+                - cell [ref=f5e58]:
+                  - link "Decide →" [ref=f5e59] [cursor=pointer]:
+                    - /url: /approvals/RC-FM-HUB9-202609-001
+              - row [ref=f5e60]:
+                - cell "RC-SC-BLR7-202609-001" [ref=f5e61]
+                - cell "BLR7" [ref=f5e62]
+                - 'cell "Busybees Logistics Solutions Pvt Ltd #10059" [ref=f5e63]':
+                  - text: Busybees Logistics Solutions Pvt Ltd
+                  - generic [ref=f5e64]: "#10059"
+                - cell "SC-01" [ref=f5e65]
+                - cell "Priya Menon" [ref=f5e66]
+                - cell "Sep 15, 2026" [ref=f5e67]
+                - cell "2d" [ref=f5e68]
+                - cell "12d" [ref=f5e69]
+                - cell [ref=f5e70]:
+                  - link "Decide →" [ref=f5e71] [cursor=pointer]:
+                    - /url: /approvals/RC-SC-BLR7-202609-001
+  - button "Open Next.js Dev Tools" [ref=f5e77] [cursor=pointer]

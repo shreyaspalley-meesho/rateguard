@@ -1,0 +1,8120 @@
+{
+  "ceilings": [
+    {
+      "hubType": "Standalone",
+      "city": "Agra",
+      "type": "FM-NEW",
+      "tiers": [
+        3.25,
+        3.1,
+        3.08,
+        3.05,
+        3.03,
+        3.0
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ahemdabad",
+      "type": "FM-NEW",
+      "tiers": [
+        3.05,
+        2.9,
+        2.68,
+        2.45,
+        2.23,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ajmer",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.3,
+        2.1,
+        1.9,
+        1.7,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Aligarh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Alwar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.45,
+        2.4,
+        2.35,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Amreli",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ankleshwar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Annur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.2,
+        2.2,
+        2.2,
+        2.2,
+        2.2
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Avinashi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.2,
+        2.13,
+        2.05,
+        1.98,
+        1.9
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Badkulla",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.2,
+        2.03,
+        1.86,
+        1.68,
+        1.51
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bangaon",
+      "type": "FM-NEW",
+      "tiers": [
+        2.6,
+        2.4,
+        2.175,
+        1.955,
+        1.725,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Barasat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.65,
+        2.45,
+        2.21,
+        1.98,
+        1.74,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Basirhat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.6,
+        2.43,
+        2.19,
+        1.96,
+        1.73,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bengaluru",
+      "type": "FM-NEW",
+      "tiers": [
+        3.5,
+        3.5,
+        3.5,
+        3.5,
+        3.5,
+        3.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhavnagar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhayandar",
+      "type": "FM-NEW",
+      "tiers": [
+        4.05,
+        3.9,
+        3.73,
+        3.55,
+        3.38,
+        3.2
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhiwadi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.11,
+        2.08,
+        2.04,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhiwandi",
+      "type": "FM-NEW",
+      "tiers": [
+        4.05,
+        3.9,
+        3.78,
+        3.65,
+        3.53,
+        3.4
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhopal",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.55,
+        2.55,
+        2.55,
+        2.55,
+        2.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhuj",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bolpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.35,
+        2.14,
+        1.93,
+        1.71,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Botad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Chandigarh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.3,
+        2.25,
+        2.2,
+        2.15,
+        2.1
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Chomu",
+      "type": "FM-NEW",
+      "tiers": [
+        2.75,
+        2.5,
+        2.45,
+        2.4,
+        2.35,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Coimbatore",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.41,
+        2.3,
+        2.21,
+        2.1
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Dahanu",
+      "type": "FM-NEW",
+      "tiers": [
+        3.05,
+        2.95,
+        2.86,
+        2.78,
+        2.69,
+        2.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Delhi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.65,
+        2.5,
+        2.25,
+        2.0,
+        1.75,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Dewas",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Dindigul",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Erode",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.45,
+        2.36,
+        2.28,
+        2.19,
+        2.1
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Etawah",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Faridabad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.75,
+        2.5,
+        2.25,
+        2.0,
+        1.74,
+        1.48
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Farukh Nagar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.6,
+        2.6,
+        2.6,
+        2.6,
+        2.6,
+        2.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Fatehabad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        1.96,
+        1.78,
+        1.59,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Firozabad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.29,
+        2.28,
+        2.27,
+        2.26,
+        2.25
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ganganagar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.4,
+        2.38,
+        2.35,
+        2.33,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ghaziabad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.8,
+        2.5,
+        2.25,
+        2.0,
+        1.75,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Gondal",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Govandi",
+      "type": "FM-NEW",
+      "tiers": [
+        4.05,
+        3.9,
+        3.73,
+        3.55,
+        3.38,
+        3.2
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Gurgaon",
+      "type": "FM-NEW",
+      "tiers": [
+        2.65,
+        2.5,
+        2.25,
+        2.0,
+        1.75,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Gwalior",
+      "type": "FM-NEW",
+      "tiers": [
+        2.85,
+        2.55,
+        2.29,
+        2.03,
+        1.76,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Habra",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Hansi",
+      "type": "FM-NEW",
+      "tiers": [
+        1.525,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Haridwar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Harur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.25,
+        2.19,
+        2.13,
+        2.06,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Hathras",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.2,
+        2.2,
+        2.2,
+        2.2,
+        2.2
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Hisar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.05,
+        1.95,
+        1.84,
+        1.73,
+        1.62,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Hooghly",
+      "type": "FM-NEW",
+      "tiers": [
+        2.09,
+        1.99,
+        1.8,
+        1.62,
+        1.43,
+        1.24
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Howrah",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.25,
+        2.05,
+        1.86,
+        1.67,
+        1.48
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Indore",
+      "type": "FM-NEW",
+      "tiers": [
+        3.15,
+        3.0,
+        2.8,
+        2.6,
+        2.4,
+        2.2
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jabalpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jaipur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.3,
+        2.1,
+        1.9,
+        1.7,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jalandhar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.85,
+        2.525,
+        2.41,
+        2.29,
+        2.17,
+        2.05
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jamnagar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jasdan",
+      "type": "FM-NEW",
+      "tiers": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jetpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jhansi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jind",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Junagadh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kanpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.54,
+        2.5,
+        2.49,
+        2.48,
+        2.47,
+        2.46
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Karnal",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.4,
+        2.18,
+        1.95,
+        1.73,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Karur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Katni",
+      "type": "FM-NEW",
+      "tiers": [
+        2.45,
+        2.45,
+        2.45,
+        2.45,
+        2.45,
+        2.45
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Keshod",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Khambhat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Khujner",
+      "type": "FM-NEW",
+      "tiers": [
+        1.4,
+        1.4,
+        1.4,
+        1.4,
+        1.4,
+        1.4
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kodinar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kolkata",
+      "type": "FM-NEW",
+      "tiers": [
+        2.6,
+        2.4,
+        2.16,
+        1.93,
+        1.71,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kosamba",
+      "type": "FM-NEW",
+      "tiers": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kota",
+      "type": "FM-NEW",
+      "tiers": [
+        2.525,
+        2.225,
+        2.11,
+        1.99,
+        1.87,
+        1.75
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kundli",
+      "type": "FM-NEW",
+      "tiers": [
+        2.85,
+        2.6,
+        2.33,
+        2.05,
+        1.78,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Lucknow",
+      "type": "FM-NEW",
+      "tiers": [
+        2.65,
+        2.45,
+        2.21,
+        1.98,
+        1.74,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ludhiana",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.45,
+        2.26,
+        2.08,
+        1.89,
+        1.7
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mahuva",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Makrana",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.4,
+        2.23,
+        2.05,
+        1.88,
+        1.7
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Malda",
+      "type": "FM-NEW",
+      "tiers": [
+        2.45,
+        2.3,
+        2.09,
+        1.88,
+        1.66,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Malegaon",
+      "type": "FM-NEW",
+      "tiers": [
+        3.55,
+        3.48,
+        3.43,
+        3.39,
+        3.34,
+        3.3
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Masjid Bandar",
+      "type": "FM-NEW",
+      "tiers": [
+        3.75,
+        3.75,
+        3.75,
+        3.75,
+        3.75,
+        3.75
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mathura",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.3,
+        2.26,
+        2.23,
+        2.19,
+        2.15
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Meerut",
+      "type": "FM-NEW",
+      "tiers": [
+        2.75,
+        2.55,
+        2.29,
+        2.03,
+        1.76,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Meham",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Modinagar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Moradabad",
+      "type": "FM-NEW",
+      "tiers": [
+        4.05,
+        3.5,
+        3.38,
+        3.25,
+        3.13,
+        3.0
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Morbi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mumbai",
+      "type": "FM-NEW",
+      "tiers": [
+        3.85,
+        3.7,
+        3.63,
+        3.55,
+        3.48,
+        3.4
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mysore",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.45,
+        2.34,
+        2.23,
+        2.11,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Nagpur",
+      "type": "FM-NEW",
+      "tiers": [
+        3.35,
+        3.15,
+        2.86,
+        2.58,
+        2.29,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Nashik",
+      "type": "FM-NEW",
+      "tiers": [
+        3.025,
+        2.99,
+        2.97,
+        2.95,
+        2.92,
+        2.9
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Navsari",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.1,
+        1.98,
+        1.85,
+        1.73,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Noida",
+      "type": "FM-NEW",
+      "tiers": [
+        2.9,
+        2.83,
+        2.37,
+        1.99,
+        1.72,
+        1.4
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Pali",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.35,
+        2.26,
+        2.18,
+        2.09,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Palwal",
+      "type": "FM-NEW",
+      "tiers": [
+        1.35,
+        1.35,
+        1.35,
+        1.35,
+        1.34,
+        1.15
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Panipat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.85,
+        2.7,
+        2.38,
+        2.05,
+        1.73,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Perundurai",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Porbandar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Pune",
+      "type": "FM-NEW",
+      "tiers": [
+        3.05,
+        2.95,
+        2.86,
+        2.78,
+        2.69,
+        2.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rajkot",
+      "type": "FM-NEW",
+      "tiers": [
+        2.95,
+        2.65,
+        2.36,
+        2.08,
+        1.79,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ranaghat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.525,
+        2.325,
+        2.12,
+        1.91,
+        1.69,
+        1.48
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rohtak",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Saharanpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Salem",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.3,
+        2.23,
+        2.15,
+        2.08,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Satna",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Siliguri",
+      "type": "FM-NEW",
+      "tiers": [
+        2.45,
+        2.3,
+        2.09,
+        1.88,
+        1.66,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sirsa",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.35,
+        2.11,
+        1.88,
+        1.64,
+        1.4
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sivakasi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.3,
+        2.25,
+        2.2,
+        2.15,
+        2.1
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sojat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.43,
+        2.35,
+        2.28,
+        2.2
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sonipat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.85,
+        2.6,
+        2.33,
+        2.05,
+        1.78,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sujangarh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.4,
+        2.2,
+        2.0,
+        1.8,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Surat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.1,
+        1.98,
+        1.85,
+        1.73,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Surendranagar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tamluk",
+      "type": "FM-NEW",
+      "tiers": [
+        2.65,
+        2.45,
+        2.21,
+        1.97,
+        1.73,
+        1.49
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tauru",
+      "type": "FM-NEW",
+      "tiers": [
+        2.45,
+        2.45,
+        2.45,
+        2.45,
+        2.45,
+        2.45
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tiptur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tiruchengode",
+      "type": "FM-NEW",
+      "tiers": [
+        2.85,
+        2.75,
+        2.64,
+        2.53,
+        2.41,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tirupur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.465,
+        2.46,
+        2.455,
+        2.455,
+        2.45
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ujjain",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Unjha",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Unnao",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Upleta",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Vapi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Velanja",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.1,
+        1.98,
+        1.85,
+        1.73,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Zirakpur",
+      "type": "FM-NEW",
+      "tiers": [
+        1.3,
+        1.3,
+        1.3,
+        1.3,
+        1.3,
+        1.3
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mau",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        1.95,
+        1.85,
+        1.75,
+        1.6,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhilwara",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Roorkee",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Khurja",
+      "type": "FM-NEW",
+      "tiers": [
+        2.1,
+        1.95,
+        1.85,
+        1.7,
+        1.6,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bilaspur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.0,
+        1.9,
+        1.75,
+        1.65
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Madurai",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        1.95,
+        1.85,
+        1.7,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Hapur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Khargone",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Beawar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.75,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jodhpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.1,
+        1.95,
+        1.85,
+        1.7,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Murarai",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rampur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.05,
+        1.9,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Barwala",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        1.95,
+        1.85,
+        1.75,
+        1.6,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Patna",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.9,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bavla",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.3,
+        2.2,
+        2.05,
+        1.9,
+        1.8
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Balotra",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Deori",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Varanasi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mohali",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Neemrana",
+      "type": "FM-NEW",
+      "tiers": [
+        2.05,
+        1.9,
+        1.8,
+        1.65,
+        1.55,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Daurala",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        1.95,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Patiala",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Amritsar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Hyderabad",
+      "type": "FM-NEW",
+      "tiers": [
+        3.05,
+        2.9,
+        2.73,
+        2.55,
+        2.38,
+        2.2
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Helencha",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Azamgarh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.9,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Phulera",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.05,
+        1.9,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rehli",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Batiagarh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhiwani",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rasulabad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Akbarpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        1.95,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Chennai",
+      "type": "FM-NEW",
+      "tiers": [
+        3.5,
+        3.3,
+        3.1,
+        2.9,
+        2.7,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Dadri",
+      "type": "FM-NEW",
+      "tiers": [
+        2.6,
+        2.4,
+        2.25,
+        2.1,
+        2.0,
+        1.85
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Khurdha",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mandavi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        1.95,
+        1.85,
+        1.75,
+        1.6,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Khanakul",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Nagina",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.75,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Narwana",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Amroha",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kurukshetra",
+      "type": "FM-NEW",
+      "tiers": [
+        2.1,
+        1.95,
+        1.85,
+        1.7,
+        1.6,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Theni",
+      "type": "FM-NEW",
+      "tiers": [
+        2.1,
+        1.9,
+        1.8,
+        1.7,
+        1.6,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bareilly",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bikaner",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Damoh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Barpeta",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Baraut",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.0,
+        1.9,
+        1.75,
+        1.65
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ambala",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sitapur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Raipur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Barobisha",
+      "type": "FM-NEW",
+      "tiers": [
+        2.1,
+        1.9,
+        1.8,
+        1.7,
+        1.6,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Lalitpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.9,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Nagaur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Vadodara",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.85,
+        1.7,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tonk",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sambalpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Baheri",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Valsad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mirganj",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Biswan",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Panchkula",
+      "type": "FM-NEW",
+      "tiers": [
+        2.1,
+        1.9,
+        1.8,
+        1.7,
+        1.6,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "hamirpur-up",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ranchi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bina",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bharatpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhadra",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Shahjahanpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "vijayawada",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.0,
+        1.9,
+        1.75,
+        1.65
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sikandra rao",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.85,
+        1.7,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Abohar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Banda",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mirzapur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.1,
+        1.9,
+        1.8,
+        1.7,
+        1.6,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bagdogra",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.3,
+        2.1,
+        1.9,
+        1.7,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bally",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.3,
+        2.1,
+        1.9,
+        1.7,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Banda-Mp",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bardoli",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.1,
+        1.98,
+        1.85,
+        1.73,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Barrackpore",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.3,
+        2.1,
+        1.9,
+        1.7,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bassi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.4,
+        2.2,
+        2.0,
+        1.8,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhubaneshwar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.25,
+        2.05,
+        1.86,
+        1.67,
+        1.48
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bulandshahr",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.2,
+        2.0,
+        1.8,
+        1.55,
+        1.3
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Chiraiyakot",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.9,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Churhat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Dadra",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.1,
+        1.98,
+        1.85,
+        1.73,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Gobichettipalayam",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.4,
+        2.2,
+        2.0,
+        1.8,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Gohana",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        1.96,
+        1.78,
+        1.59,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Greater Thane",
+      "type": "FM-NEW",
+      "tiers": [
+        3.05,
+        2.95,
+        2.86,
+        2.78,
+        2.69,
+        2.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jhajjar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        1.96,
+        1.78,
+        1.59,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Katihar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.2,
+        2.05,
+        1.9,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mohiuddinpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.9,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mughal Sarai",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Muzaffarpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.2,
+        2.05,
+        1.9,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Naihati",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.3,
+        2.1,
+        1.9,
+        1.7,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Pataudi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        1.96,
+        1.78,
+        1.59,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Patti-Up",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.45,
+        2.25,
+        2.0,
+        1.85,
+        1.65
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rahatgarh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sathyamangalam",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.4,
+        2.2,
+        2.0,
+        1.8,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Shamshabad",
+      "type": "FM-NEW",
+      "tiers": [
+        3.0,
+        2.9,
+        2.7,
+        2.55,
+        2.4,
+        2.2
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Solapur",
+      "type": "FM-NEW",
+      "tiers": [
+        3.05,
+        2.95,
+        2.86,
+        2.78,
+        2.69,
+        2.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tirtol",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Udaynarayanpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rewa",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mandla",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Vidisha",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kozhikode",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.0,
+        1.9,
+        1.75,
+        1.65
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Allahabad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Hosur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.45,
+        2.36,
+        2.28,
+        2.19,
+        2.1
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Nakashipara",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Gauriganj",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        1.95,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Chandausi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.05,
+        1.9,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tirupati",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.0,
+        1.9,
+        1.75,
+        1.65
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sriganganagar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.4,
+        2.38,
+        2.35,
+        2.33,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Aurangabad",
+      "type": "FM-NEW",
+      "tiers": [
+        3.35,
+        3.15,
+        2.86,
+        2.58,
+        2.29,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Medchal",
+      "type": "FM-NEW",
+      "tiers": [
+        3.05,
+        2.9,
+        2.73,
+        2.55,
+        2.38,
+        2.2
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Muzaffarnagar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.0,
+        1.9,
+        1.75,
+        1.65
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ghatal",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhatkal",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.1,
+        2.0,
+        1.9,
+        1.8,
+        1.7
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rampur Maniharan",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        1.95,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Dabaspete",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.1,
+        2.05,
+        2.0,
+        1.95
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Lalsot",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Budaun",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Shamli",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.0,
+        1.9,
+        1.75,
+        1.65
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bansi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        1.95,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Paota",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.1,
+        1.95,
+        1.85,
+        1.7,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Farrukhabad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Dehradun",
+      "type": "FM-NEW",
+      "tiers": [
+        2.75,
+        2.5,
+        2.3,
+        2.1,
+        1.9,
+        1.75
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tarkeshwar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Faizabad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        1.95,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Gorakhpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.0,
+        1.88,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Asansol",
+      "type": "FM-NEW",
+      "tiers": [
+        2.65,
+        2.45,
+        2.2,
+        2.0,
+        1.8,
+        1.65
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhatapara",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.9,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Nadiad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.85,
+        1.7,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kim",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.1,
+        1.98,
+        1.85,
+        1.73,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Pratapgarh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.68,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Agra",
+      "type": "FM-NEW",
+      "tiers": [
+        3.25,
+        3.1,
+        3.08,
+        3.05,
+        3.03,
+        3.0
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ahemdabad",
+      "type": "FM-NEW",
+      "tiers": [
+        3.05,
+        2.9,
+        2.68,
+        2.45,
+        2.23,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ajmer",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.3,
+        2.1,
+        1.9,
+        1.7,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Aligarh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Alwar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.45,
+        2.4,
+        2.35,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Amreli",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ankleshwar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Annur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.2,
+        2.2,
+        2.2,
+        2.2,
+        2.2
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Avinashi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.2,
+        2.13,
+        2.05,
+        1.98,
+        1.9
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Badkulla",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.2,
+        2.03,
+        1.86,
+        1.68,
+        1.51
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bangaon",
+      "type": "FM-NEW",
+      "tiers": [
+        2.6,
+        2.4,
+        2.175,
+        1.955,
+        1.725,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Barasat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.65,
+        2.45,
+        2.21,
+        1.98,
+        1.74,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Basirhat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.6,
+        2.43,
+        2.19,
+        1.96,
+        1.73,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bengaluru",
+      "type": "FM-NEW",
+      "tiers": [
+        3.5,
+        3.5,
+        3.5,
+        3.5,
+        3.5,
+        3.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhavnagar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhayandar",
+      "type": "FM-NEW",
+      "tiers": [
+        4.05,
+        3.9,
+        3.73,
+        3.55,
+        3.38,
+        3.2
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhiwadi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.11,
+        2.08,
+        2.04,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhiwandi",
+      "type": "FM-NEW",
+      "tiers": [
+        4.05,
+        3.9,
+        3.78,
+        3.65,
+        3.53,
+        3.4
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhopal",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.55,
+        2.55,
+        2.55,
+        2.55,
+        2.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhuj",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bolpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.35,
+        2.14,
+        1.93,
+        1.71,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Botad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Chandigarh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.3,
+        2.25,
+        2.2,
+        2.15,
+        2.1
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Chomu",
+      "type": "FM-NEW",
+      "tiers": [
+        2.75,
+        2.5,
+        2.45,
+        2.4,
+        2.35,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Coimbatore",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.41,
+        2.3,
+        2.21,
+        2.1
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Dahanu",
+      "type": "FM-NEW",
+      "tiers": [
+        3.05,
+        2.95,
+        2.86,
+        2.78,
+        2.69,
+        2.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Delhi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.65,
+        2.5,
+        2.25,
+        2.0,
+        1.75,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Dewas",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Dindigul",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Erode",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.45,
+        2.36,
+        2.28,
+        2.19,
+        2.1
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Etawah",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Faridabad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.75,
+        2.5,
+        2.25,
+        2.0,
+        1.74,
+        1.48
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Farukh Nagar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.6,
+        2.6,
+        2.6,
+        2.6,
+        2.6,
+        2.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Fatehabad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        1.96,
+        1.78,
+        1.59,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Firozabad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.29,
+        2.28,
+        2.27,
+        2.26,
+        2.25
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ganganagar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.4,
+        2.38,
+        2.35,
+        2.33,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ghaziabad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.8,
+        2.5,
+        2.25,
+        2.0,
+        1.75,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Gondal",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Govandi",
+      "type": "FM-NEW",
+      "tiers": [
+        4.05,
+        3.9,
+        3.73,
+        3.55,
+        3.38,
+        3.2
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Gurgaon",
+      "type": "FM-NEW",
+      "tiers": [
+        2.65,
+        2.5,
+        2.25,
+        2.0,
+        1.75,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Gwalior",
+      "type": "FM-NEW",
+      "tiers": [
+        2.85,
+        2.55,
+        2.29,
+        2.03,
+        1.76,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Habra",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Hansi",
+      "type": "FM-NEW",
+      "tiers": [
+        1.525,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Haridwar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Harur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.25,
+        2.19,
+        2.13,
+        2.06,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Hathras",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.2,
+        2.2,
+        2.2,
+        2.2,
+        2.2
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Hisar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.05,
+        1.95,
+        1.84,
+        1.73,
+        1.62,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Hooghly",
+      "type": "FM-NEW",
+      "tiers": [
+        2.09,
+        1.99,
+        1.8,
+        1.62,
+        1.43,
+        1.24
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Howrah",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.25,
+        2.05,
+        1.86,
+        1.67,
+        1.48
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Indore",
+      "type": "FM-NEW",
+      "tiers": [
+        3.15,
+        3.0,
+        2.8,
+        2.6,
+        2.4,
+        2.2
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jabalpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jaipur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.3,
+        2.1,
+        1.9,
+        1.7,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jalandhar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.85,
+        2.525,
+        2.41,
+        2.29,
+        2.17,
+        2.05
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jamnagar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jasdan",
+      "type": "FM-NEW",
+      "tiers": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jetpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jhansi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jind",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Junagadh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Kanpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.54,
+        2.5,
+        2.49,
+        2.48,
+        2.47,
+        2.46
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Karnal",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.4,
+        2.18,
+        1.95,
+        1.73,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Karur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Katni",
+      "type": "FM-NEW",
+      "tiers": [
+        2.45,
+        2.45,
+        2.45,
+        2.45,
+        2.45,
+        2.45
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Keshod",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Khambhat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Khujner",
+      "type": "FM-NEW",
+      "tiers": [
+        1.4,
+        1.4,
+        1.4,
+        1.4,
+        1.4,
+        1.4
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Kodinar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Kolkata",
+      "type": "FM-NEW",
+      "tiers": [
+        2.6,
+        2.4,
+        2.16,
+        1.93,
+        1.71,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Kosamba",
+      "type": "FM-NEW",
+      "tiers": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Kota",
+      "type": "FM-NEW",
+      "tiers": [
+        2.525,
+        2.225,
+        2.11,
+        1.99,
+        1.87,
+        1.75
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Kundli",
+      "type": "FM-NEW",
+      "tiers": [
+        2.85,
+        2.6,
+        2.33,
+        2.05,
+        1.78,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Lucknow",
+      "type": "FM-NEW",
+      "tiers": [
+        2.65,
+        2.45,
+        2.21,
+        1.98,
+        1.74,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ludhiana",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.45,
+        2.26,
+        2.08,
+        1.89,
+        1.7
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mahuva",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Makrana",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.4,
+        2.23,
+        2.05,
+        1.88,
+        1.7
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Malda",
+      "type": "FM-NEW",
+      "tiers": [
+        2.45,
+        2.3,
+        2.09,
+        1.88,
+        1.66,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Malegaon",
+      "type": "FM-NEW",
+      "tiers": [
+        3.55,
+        3.48,
+        3.43,
+        3.39,
+        3.34,
+        3.3
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Masjid Bandar",
+      "type": "FM-NEW",
+      "tiers": [
+        3.75,
+        3.75,
+        3.75,
+        3.75,
+        3.75,
+        3.75
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mathura",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.3,
+        2.26,
+        2.23,
+        2.19,
+        2.15
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Meerut",
+      "type": "FM-NEW",
+      "tiers": [
+        2.75,
+        2.55,
+        2.29,
+        2.03,
+        1.76,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Meham",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Modinagar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Moradabad",
+      "type": "FM-NEW",
+      "tiers": [
+        4.05,
+        3.5,
+        3.38,
+        3.25,
+        3.13,
+        3.0
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Morbi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mumbai",
+      "type": "FM-NEW",
+      "tiers": [
+        3.85,
+        3.7,
+        3.63,
+        3.55,
+        3.48,
+        3.4
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mysore",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.45,
+        2.34,
+        2.23,
+        2.11,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Nagpur",
+      "type": "FM-NEW",
+      "tiers": [
+        3.35,
+        3.15,
+        2.86,
+        2.58,
+        2.29,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Nashik",
+      "type": "FM-NEW",
+      "tiers": [
+        3.025,
+        2.99,
+        2.97,
+        2.95,
+        2.92,
+        2.9
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Navsari",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.1,
+        1.98,
+        1.85,
+        1.73,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Noida",
+      "type": "FM-NEW",
+      "tiers": [
+        2.9,
+        2.83,
+        2.37,
+        1.99,
+        1.72,
+        1.4
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Pali",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.35,
+        2.26,
+        2.18,
+        2.09,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Palwal",
+      "type": "FM-NEW",
+      "tiers": [
+        1.35,
+        1.35,
+        1.35,
+        1.35,
+        1.34,
+        1.15
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Panipat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.85,
+        2.7,
+        2.38,
+        2.05,
+        1.73,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Perundurai",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Porbandar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Pune",
+      "type": "FM-NEW",
+      "tiers": [
+        3.05,
+        2.95,
+        2.86,
+        2.78,
+        2.69,
+        2.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Rajkot",
+      "type": "FM-NEW",
+      "tiers": [
+        2.95,
+        2.65,
+        2.36,
+        2.08,
+        1.79,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ranaghat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.525,
+        2.325,
+        2.12,
+        1.91,
+        1.69,
+        1.48
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Rohtak",
+      "type": "FM-NEW",
+      "tiers": [
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Saharanpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Salem",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.3,
+        2.23,
+        2.15,
+        2.08,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Satna",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Siliguri",
+      "type": "FM-NEW",
+      "tiers": [
+        2.45,
+        2.3,
+        2.09,
+        1.88,
+        1.66,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sirsa",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.35,
+        2.11,
+        1.88,
+        1.64,
+        1.4
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sivakasi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.3,
+        2.25,
+        2.2,
+        2.15,
+        2.1
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sojat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.43,
+        2.35,
+        2.28,
+        2.2
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sonipat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.85,
+        2.6,
+        2.33,
+        2.05,
+        1.78,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sujangarh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.4,
+        2.2,
+        2.0,
+        1.8,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Surat",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.1,
+        1.98,
+        1.85,
+        1.73,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Surendranagar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Tamluk",
+      "type": "FM-NEW",
+      "tiers": [
+        2.65,
+        2.45,
+        2.21,
+        1.97,
+        1.73,
+        1.49
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Tauru",
+      "type": "FM-NEW",
+      "tiers": [
+        2.45,
+        2.45,
+        2.45,
+        2.45,
+        2.45,
+        2.45
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Tiptur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Tiruchengode",
+      "type": "FM-NEW",
+      "tiers": [
+        2.85,
+        2.75,
+        2.64,
+        2.53,
+        2.41,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Tirupur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.465,
+        2.46,
+        2.455,
+        2.455,
+        2.45
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ujjain",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3,
+        2.3
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Unjha",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Unnao",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Upleta",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Vapi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Velanja",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.1,
+        1.98,
+        1.85,
+        1.73,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Zirakpur",
+      "type": "FM-NEW",
+      "tiers": [
+        1.3,
+        1.3,
+        1.3,
+        1.3,
+        1.3,
+        1.3
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mau",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        1.95,
+        1.85,
+        1.75,
+        1.6,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhilwara",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Roorkee",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Khurja",
+      "type": "FM-NEW",
+      "tiers": [
+        2.1,
+        1.95,
+        1.85,
+        1.7,
+        1.6,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bilaspur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.0,
+        1.9,
+        1.75,
+        1.65
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Madurai",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        1.95,
+        1.85,
+        1.7,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Hapur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Khargone",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Beawar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.75,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jodhpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.1,
+        1.95,
+        1.85,
+        1.7,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Murarai",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Rampur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.05,
+        1.9,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Barwala",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        1.95,
+        1.85,
+        1.75,
+        1.6,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Patna",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.9,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bavla",
+      "type": "FM-NEW",
+      "tiers": [
+        2.55,
+        2.3,
+        2.2,
+        2.05,
+        1.9,
+        1.8
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Balotra",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Deori",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Varanasi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mohali",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Neemrana",
+      "type": "FM-NEW",
+      "tiers": [
+        2.05,
+        1.9,
+        1.8,
+        1.65,
+        1.55,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Daurala",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        1.95,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Patiala",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Amritsar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Hyderabad",
+      "type": "FM-NEW",
+      "tiers": [
+        3.05,
+        2.9,
+        2.73,
+        2.55,
+        2.38,
+        2.2
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Helencha",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Azamgarh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.9,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Phulera",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.05,
+        1.9,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Rehli",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Batiagarh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhiwani",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Rasulabad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Akbarpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        1.95,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Chennai",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.0,
+        1.9,
+        1.75,
+        1.65
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Dadri",
+      "type": "FM-NEW",
+      "tiers": [
+        2.6,
+        2.4,
+        2.25,
+        2.1,
+        2.0,
+        1.85
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Khurdha",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mandavi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        1.95,
+        1.85,
+        1.75,
+        1.6,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Khanakul",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Nagina",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.75,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Narwana",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Amroha",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Kurukshetra",
+      "type": "FM-NEW",
+      "tiers": [
+        2.1,
+        1.95,
+        1.85,
+        1.7,
+        1.6,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Theni",
+      "type": "FM-NEW",
+      "tiers": [
+        2.1,
+        1.9,
+        1.8,
+        1.7,
+        1.6,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bareilly",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bikaner",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Damoh",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Barpeta",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Baraut",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.0,
+        1.9,
+        1.75,
+        1.65
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ambala",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sitapur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Raipur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Barobisha",
+      "type": "FM-NEW",
+      "tiers": [
+        2.1,
+        1.9,
+        1.8,
+        1.7,
+        1.6,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Lalitpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.9,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Nagaur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Vadodara",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.85,
+        1.7,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Tonk",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sambalpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Baheri",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.8,
+        1.65,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Valsad",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mirganj",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Biswan",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Panchkula",
+      "type": "FM-NEW",
+      "tiers": [
+        2.1,
+        1.9,
+        1.8,
+        1.7,
+        1.6,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "hamirpur-up",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ranchi",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bina",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.8,
+        1.7,
+        1.55
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bharatpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhadra",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Shahjahanpur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.2,
+        2.0,
+        1.9,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "vijayawada",
+      "type": "FM-NEW",
+      "tiers": [
+        2.35,
+        2.15,
+        2.0,
+        1.9,
+        1.75,
+        1.65
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sikandra rao",
+      "type": "FM-NEW",
+      "tiers": [
+        2.25,
+        2.05,
+        1.95,
+        1.85,
+        1.7,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Abohar",
+      "type": "FM-NEW",
+      "tiers": [
+        2.3,
+        2.1,
+        2.0,
+        1.85,
+        1.75,
+        1.6
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Banda",
+      "type": "FM-NEW",
+      "tiers": [
+        2.15,
+        2.0,
+        1.85,
+        1.75,
+        1.65,
+        1.5
+      ]
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mirzapur",
+      "type": "FM-NEW",
+      "tiers": [
+        2.1,
+        1.9,
+        1.8,
+        1.7,
+        1.6,
+        1.45
+      ]
+    },
+    {
+      "hubType": "Mini Hub",
+      "type": "FM-NEW",
+      "tiers": [
+        3.2,
+        3.0,
+        2.73,
+        2.55,
+        2.38,
+        2.2
+      ]
+    },
+    {
+      "hubType": "Seller Led Hub",
+      "type": "FM-NEW",
+      "tiers": [
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ]
+    }
+  ],
+  "touchpoints": [
+    {
+      "hubType": "Standalone",
+      "city": "Agra",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ahemdabad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ajmer",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Aligarh",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Alwar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Amreli",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ankleshwar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Annur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Avinashi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Badkulla",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bangaon",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Barasat",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Basirhat",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bengaluru",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhavnagar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhayandar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhiwadi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhiwandi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhopal",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhuj",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bolpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Botad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Chandigarh",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Chomu",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Coimbatore",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Dahanu",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Delhi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Dewas",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Dindigul",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Erode",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Etawah",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Faridabad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Farukh Nagar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Fatehabad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Firozabad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ganganagar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ghaziabad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Gondal",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Govandi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Gurgaon",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Gwalior",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Habra",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Hansi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Haridwar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Harur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Hathras",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Hisar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Hooghly",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Howrah",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Indore",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jabalpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jaipur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jalandhar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jamnagar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jasdan",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jetpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jhansi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jind",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Junagadh",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kanpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Karnal",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Karur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Katni",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Keshod",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Khambhat",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Khujner",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kodinar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kolkata",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kosamba",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kota",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kundli",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Lucknow",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ludhiana",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mahuva",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Makrana",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Malda",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Malegaon",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Masjid Bandar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mathura",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Meerut",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Meham",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Modinagar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Moradabad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Morbi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mumbai",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mysore",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Nagpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Nashik",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Navsari",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Noida",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Pali",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Palwal",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Panipat",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Perundurai",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Porbandar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Pune",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rajkot",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ranaghat",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rohtak",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Saharanpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Salem",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Satna",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Siliguri",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sirsa",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sivakasi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sojat",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sonipat",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sujangarh",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Surat",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Surendranagar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tamluk",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tauru",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tiptur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tiruchengode",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tirupur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ujjain",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Unjha",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Unnao",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Upleta",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Vapi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Velanja",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Zirakpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mau",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhilwara",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Roorkee",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Khurja",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bilaspur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Madurai",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Hapur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Khargone",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Beawar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jodhpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Murarai",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rampur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Barwala",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Patna",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bavla",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Balotra",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Deori",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Varanasi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mohali",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Neemrana",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Daurala",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Patiala",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Amritsar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Hyderabad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Helencha",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Azamgarh",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Phulera",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rehli",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Batiagarh",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhiwani",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rasulabad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Akbarpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Chennai",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Dadri",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Khurdha",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mandavi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Khanakul",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Nagina",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Narwana",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Amroha",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kurukshetra",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Theni",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bareilly",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bikaner",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Damoh",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Barpeta",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Baraut",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ambala",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sitapur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Raipur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Barobisha",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Lalitpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Nagaur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Vadodara",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tonk",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sambalpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Baheri",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Valsad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mirganj",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Biswan",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Panchkula",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "hamirpur-up",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ranchi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bina",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bharatpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhadra",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Shahjahanpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "vijayawada",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sikandra rao",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Abohar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Banda",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mirzapur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bagdogra",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bally",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Banda-Mp",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bardoli",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Barrackpore",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bassi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhubaneshwar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bulandshahr",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Chiraiyakot",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Churhat",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Dadra",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Gobichettipalayam",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Gohana",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Greater Thane",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Jhajjar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Katihar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mohiuddinpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mughal Sarai",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Muzaffarpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Naihati",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Pataudi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Patti-Up",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rahatgarh",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sathyamangalam",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Shamshabad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Solapur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tirtol",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Udaynarayanpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rewa",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Mandla",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Vidisha",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kozhikode",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Allahabad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Hosur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Nakashipara",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Gauriganj",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Chandausi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tirupati",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Sriganganagar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Aurangabad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Medchal",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Muzaffarnagar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Ghatal",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhatkal",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Rampur Maniharan",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Dabaspete",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Lalsot",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Budaun",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Shamli",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bansi",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Paota",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Farrukhabad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Dehradun",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Tarkeshwar",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Faizabad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Gorakhpur",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Asansol",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Bhatapara",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Nadiad",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Kim",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Standalone",
+      "city": "Pratapgarh",
+      "ceiling": 5.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Agra",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ahemdabad",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ajmer",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Aligarh",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Alwar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Amreli",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ankleshwar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Annur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Avinashi",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Badkulla",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bangaon",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Barasat",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Basirhat",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bengaluru",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhavnagar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhayandar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhiwadi",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhiwandi",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhopal",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhuj",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bolpur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Botad",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Chandigarh",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Chomu",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Coimbatore",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Dahanu",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Delhi",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Dewas",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Dindigul",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Erode",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Etawah",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Faridabad",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Farukh Nagar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Fatehabad",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Firozabad",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ganganagar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ghaziabad",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Gondal",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Govandi",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Gurgaon",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Gwalior",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Habra",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Hansi",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Haridwar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Harur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Hathras",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Hisar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Hooghly",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Howrah",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Indore",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jabalpur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jaipur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jalandhar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jamnagar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jasdan",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jetpur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jhansi",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jind",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Junagadh",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Kanpur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Karnal",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Karur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Katni",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Keshod",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Khambhat",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Khujner",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Kodinar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Kolkata",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Kosamba",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Kota",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Kundli",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Lucknow",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ludhiana",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mahuva",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Makrana",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Malda",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Malegaon",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Masjid Bandar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mathura",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Meerut",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Meham",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Modinagar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Moradabad",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Morbi",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mumbai",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mysore",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Nagpur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Nashik",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Navsari",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Noida",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Pali",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Palwal",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Panipat",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Perundurai",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Porbandar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Pune",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Rajkot",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ranaghat",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Rohtak",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Saharanpur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Salem",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Satna",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Siliguri",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sirsa",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sivakasi",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sojat",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sonipat",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sujangarh",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Surat",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Surendranagar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Tamluk",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Tauru",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Tiptur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Tiruchengode",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Tirupur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ujjain",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Unjha",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Unnao",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Upleta",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Vapi",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Velanja",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Zirakpur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mau",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhilwara",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Roorkee",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Khurja",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bilaspur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Madurai",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Hapur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Khargone",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Beawar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Jodhpur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Murarai",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Rampur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Barwala",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Patna",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bavla",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Balotra",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Deori",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Varanasi",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mohali",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Neemrana",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Daurala",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Patiala",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Amritsar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Hyderabad",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Helencha",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Azamgarh",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Phulera",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Rehli",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Batiagarh",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhiwani",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Rasulabad",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Akbarpur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Chennai",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Dadri",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Khurdha",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mandavi",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Khanakul",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Nagina",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Narwana",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Amroha",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Kurukshetra",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Theni",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bareilly",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bikaner",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Damoh",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Barpeta",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Baraut",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ambala",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sitapur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Raipur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Barobisha",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Lalitpur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Nagaur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Vadodara",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Tonk",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sambalpur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Baheri",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Valsad",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mirganj",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Biswan",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Panchkula",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "hamirpur-up",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Ranchi",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bina",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bharatpur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Bhadra",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Shahjahanpur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "vijayawada",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Sikandra rao",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Abohar",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Banda",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mall Hub",
+      "city": "Mirzapur",
+      "ceiling": 2.0
+    },
+    {
+      "hubType": "Mini Hub",
+      "ceiling": 6.0
+    },
+    {
+      "hubType": "Seller Led Hub",
+      "ceiling": 0.0
+    }
+  ]
+}

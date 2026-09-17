@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --meesho: #580A46;
+  --meesho-dark: #3F0731;
+  --ink: #1C161A;
+  --bg: #EFEBEE;
+  --amber: #FF9D00;
+}
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--ink);
+  --color-meesho: var(--meesho);
+  --color-ink: var(--ink);
+  --font-sans: var(--font-jakarta);
+  --font-mono: var(--font-plex);
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+}
+
+.mono { font-family: var(--font-plex), ui-monospace, monospace; }
+
+.chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  font: 600 11px/1 var(--font-jakarta), sans-serif;
+  padding: 3px 9px; border-radius: 4px; letter-spacing: 0.01em;
+}
+.chip-filled-green { background: #0F7A52; color: #fff; }
+.chip-filled-purple { background: #580A46; color: #fff; }
+.chip-filled-red { background: #C22C2C; color: #fff; }
+.chip-filled-grey { background: #E4E4E7; color: #52525B; }
+.chip-outline-green { border: 1px solid #8FCBAF; color: #0B5C3E; background: #fff; padding: 2px 8px; }
+.chip-outline-grey { border: 1px solid #D4D4D8; color: #52525B; background: #fff; padding: 2px 8px; }
+.chip-outline-amber { border: 1px solid #E0B870; color: #7A4A00; background: #FFF4E0; padding: 2px 8px; }
+.chip-outline-red { border: 1px solid #E0A0A0; color: #8F2020; background: #FBECEC; padding: 2px 8px; }
+.chip-outline-purple { border: 1px solid #580A46; color: #580A46; background: #fff; padding: 2px 8px; }
+
+.btn { display:inline-flex; align-items:center; gap:6px; padding:8px 14px; border-radius:8px; font-weight:600; font-size:13px; transition:all .15s; cursor:pointer; border:1px solid transparent; }
+.btn-primary { background: var(--meesho); color:#fff; }
+.btn-primary:hover:not(:disabled) { background: var(--meesho-dark); }
+.btn-primary:disabled { opacity:.5; cursor:not-allowed; }
+.btn-ghost { background: #fff; color: var(--ink); border-color: rgba(0,0,0,.12); }
+.btn-ghost:hover { background: #F5F1F3; }
+.btn-danger { background:#C42B1C; color:#fff; }
+
+.card { background:#fff; border:1px solid rgba(0,0,0,.1); border-radius:8px; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+.section-title { font: 600 10.5px/1.2 var(--font-jakarta), sans-serif; color: rgba(0,0,0,.55); text-transform: uppercase; letter-spacing: .05em; }
+.btn-ghost:hover { background: #fff; border-color: rgba(0,0,0,.25); }
+
+.field-label { font: 500 11px/1.3 var(--font-jakarta), sans-serif; color:rgba(0,0,0,.66); text-transform:uppercase; letter-spacing:.04em; margin-bottom:6px; display:block; }
+.field-input { width:100%; padding:9px 12px; border:1px solid rgba(0,0,0,.14); border-radius:8px; background:#fff; font-size:13px; color: var(--ink); }
+.field-input:focus { outline:none; border-color: var(--meesho); box-shadow: 0 0 0 3px rgba(88,10,70,.12); }
+
+table.data { width:100%; border-collapse:collapse; font-size:12.5px; }
+table.data th { text-align:left; padding:10px 12px; font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:rgba(0,0,0,.55); background:#FAF7F9; border-bottom:1px solid rgba(0,0,0,.08); position:sticky; top:0; }
+table.data td { padding:11px 12px; border-bottom:1px solid rgba(0,0,0,.06); }
+table.data tr:hover td { background:#FAF7F9; }
+.num { font-family: var(--font-plex), monospace; font-variant-numeric: tabular-nums; }
+
+.banner { padding:12px 14px; border-radius:8px; font-size:13px; display:flex; gap:10px; align-items:flex-start; }
+.banner-green { background:#E8F5EE; border:1px solid #10893E; color:#0A5D2A; }
+.banner-amber { background:#FFF6E5; border:1px solid #B76900; color:#7A4800; }
+.banner-red { background:#FDECEA; border:1px solid #C42B1C; color:#7A1A11; }
+.banner-purple { background:#F5E8F0; border:1px solid #580A46; color:#3F0731; }
+
+.phone-frame { width:390px; margin: 0 auto; background:#fff; border-radius: 30px; box-shadow: 0 8px 32px rgba(0,0,0,.16); overflow:hidden; border: 8px solid #1C161A; }
+.phone-statusbar { background: var(--meesho); color:#fff; padding:10px 18px 8px; display:flex; justify-content:space-between; font-size:11px; font-weight:600; }

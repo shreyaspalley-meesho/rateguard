@@ -1,0 +1,902 @@
+[
+  {
+    "supplierNumber": "10058",
+    "name": "Ecom Express Private Limited",
+    "city": "",
+    "state": "Arunachal"
+  },
+  {
+    "supplierNumber": "10059",
+    "name": "Busybees Logistics Solutions Pvt Ltd",
+    "city": "Itanager",
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "supplierNumber": "10169",
+    "name": "Aadhyatech Express Logistics Solutions Private Limited",
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "supplierNumber": "10183",
+    "name": "Mamta Logistics",
+    "city": "Ahmedabad,",
+    "state": "Gujarat,"
+  },
+  {
+    "supplierNumber": "10192",
+    "name": "Shree Transport",
+    "city": "Nagpur",
+    "state": "Maharashtra"
+  },
+  {
+    "supplierNumber": "10355",
+    "name": "Maa Transport",
+    "city": "Vadodara",
+    "state": "Gujarat"
+  },
+  {
+    "supplierNumber": "10361",
+    "name": "Garudaavega Logistics Private Limited",
+    "city": "Bangalore",
+    "state": "Karnataka"
+  },
+  {
+    "supplierNumber": "10370",
+    "name": "Rootvizor Logistics",
+    "city": "Gurgaon",
+    "state": "Haryana"
+  },
+  {
+    "supplierNumber": "10521",
+    "name": "Aim Logistics Services",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "supplierNumber": "10584",
+    "name": "Krisha Logistics",
+    "city": "Kolar",
+    "state": "Karnataka"
+  },
+  {
+    "supplierNumber": "10588",
+    "name": "Mahindra Logistics Ltd",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "supplierNumber": "10655",
+    "name": "Zipzap Logistics Private Limited",
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "supplierNumber": "10770",
+    "name": "Ntex Transportation Services Private Limited",
+    "city": "Surat",
+    "state": "Gujarat"
+  },
+  {
+    "supplierNumber": "10773",
+    "name": "Ruby Roadlines",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "supplierNumber": "10916",
+    "name": "Log10 Express Logistics Pvt Ltd",
+    "city": "Bangalore",
+    "state": ""
+  },
+  {
+    "supplierNumber": "11005",
+    "name": "Merchant Express Logistics Pvt Ltd",
+    "city": "Guwahati",
+    "state": "Assam"
+  },
+  {
+    "supplierNumber": "11109",
+    "name": "Computech Logistics",
+    "city": "Mysore",
+    "state": "Karnataka"
+  },
+  {
+    "supplierNumber": "11152",
+    "name": "Probity Logistics Pvt Ltd",
+    "city": "Gandhinagar",
+    "state": "Gujarat"
+  },
+  {
+    "supplierNumber": "11169",
+    "name": "Vivek Logistics",
+    "city": "Kolkata",
+    "state": "West Bengal"
+  },
+  {
+    "supplierNumber": "11192",
+    "name": "Photontech Logistics Pvt Ltd",
+    "city": "Thane",
+    "state": "Maharashtra "
+  },
+  {
+    "supplierNumber": "11203",
+    "name": "Aim Cargo Service",
+    "city": "Indore,",
+    "state": "Madhaya Pradesah"
+  },
+  {
+    "supplierNumber": "11206",
+    "name": "Fastwaay Delivery Pvt Ltd",
+    "city": "Gurgaon",
+    "state": "Haryana"
+  },
+  {
+    "supplierNumber": "11209",
+    "name": "Anjali Logistics",
+    "city": "New Delhi",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "11211",
+    "name": "Jigyasa Logistics",
+    "city": "New Delhi",
+    "state": "New Delhi"
+  },
+  {
+    "supplierNumber": "11212",
+    "name": "Mamta Logistics (Prop - Mamta)",
+    "city": "Dehli",
+    "state": "Dehli"
+  },
+  {
+    "supplierNumber": "11291",
+    "name": "Arrowjet Logistics",
+    "city": "Kanpur Nagar",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "11293",
+    "name": "Excel Logistics Solutions",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "11307",
+    "name": "Adbhooot Transportation Services",
+    "city": "Patna",
+    "state": "Bihar "
+  },
+  {
+    "supplierNumber": "11338",
+    "name": "Innovative Courier Services",
+    "city": "Guwahati",
+    "state": "Assam"
+  },
+  {
+    "supplierNumber": "11343",
+    "name": "Camions Logistics Solutions Private Limited",
+    "city": "Gurugram",
+    "state": "Haryana"
+  },
+  {
+    "supplierNumber": "11346",
+    "name": "Irshad Ahesan Khan ( Ip Logistics)",
+    "city": "Nagpur",
+    "state": ""
+  },
+  {
+    "supplierNumber": "11351",
+    "name": "Sai Logistics",
+    "city": "Surat ",
+    "state": "Gujarat"
+  },
+  {
+    "supplierNumber": "11355",
+    "name": "Chain Logistics Services",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "11358",
+    "name": "Supreem Express",
+    "city": "Ranaghat",
+    "state": "West Bengal"
+  },
+  {
+    "supplierNumber": "11361",
+    "name": "Sri Laxmi Narayan Logistics",
+    "city": "West Godavari",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "supplierNumber": "11366",
+    "name": "Robo Logistic",
+    "city": "Sultanpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "11373",
+    "name": "Routematrics Logistics Private Limited",
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "supplierNumber": "11378",
+    "name": "Express Logistics",
+    "city": "Guwahati",
+    "state": "Assam"
+  },
+  {
+    "supplierNumber": "11438",
+    "name": "Roadlinks Logistics Pvt. Ltd.",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "11453",
+    "name": "Fast Track Logistics",
+    "city": "Faridabad",
+    "state": "Haryana"
+  },
+  {
+    "supplierNumber": "11457",
+    "name": "Om Cargo Carrier",
+    "city": "New Delhi",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "11474",
+    "name": "Adamya Logistics",
+    "city": "Gonda",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "11476",
+    "name": "Knight Rider Logistics",
+    "city": "Bahraich",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "11478",
+    "name": "Shokeen Transport Co",
+    "city": "Gurugram",
+    "state": "Haryana"
+  },
+  {
+    "supplierNumber": "11483",
+    "name": "Cislacargologistics",
+    "city": "Secunderabad",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "supplierNumber": "11590",
+    "name": "Progex Logistics Pvt Limited",
+    "city": "Guwahati",
+    "state": "Assam"
+  },
+  {
+    "supplierNumber": "11595",
+    "name": "Kd Logistics Services",
+    "city": "Bijnor",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "11613",
+    "name": "Mishra Logistic",
+    "city": "Mainpuri",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "11661",
+    "name": "Batra Cargo Movers",
+    "city": "New Delhi",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "11668",
+    "name": "Bandana Logistics",
+    "city": "Ballia",
+    "state": "Uttarpradesh "
+  },
+  {
+    "supplierNumber": "11670",
+    "name": "A To Z Logistic Collection",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "11695",
+    "name": "Identifyplus Delivery Services Private Limited",
+    "city": "New Delhi ",
+    "state": "Delhi "
+  },
+  {
+    "supplierNumber": "11700",
+    "name": "Radhe Radhe Courier Service",
+    "city": "Auraiya",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "11726",
+    "name": "Deep Express",
+    "city": "Bankura,",
+    "state": "West Bengal"
+  },
+  {
+    "supplierNumber": "11747",
+    "name": "Mandru Logistics",
+    "city": "Karnal",
+    "state": "Haryana"
+  },
+  {
+    "supplierNumber": "11750",
+    "name": "1 Call Logistics",
+    "city": "",
+    "state": ""
+  },
+  {
+    "supplierNumber": "11754",
+    "name": "Advitha Move Max Logistics Solutions (Opc) Private Limited",
+    "city": "Nalgonda",
+    "state": "Andhra Pradesh "
+  },
+  {
+    "supplierNumber": "11762",
+    "name": "Nency Road Lines",
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "supplierNumber": "11763",
+    "name": "Smart Logistics",
+    "city": "Dhubri",
+    "state": "Assam"
+  },
+  {
+    "supplierNumber": "11797",
+    "name": "Laxmi Supply Chain Solutions",
+    "city": "Nagpur",
+    "state": "Maharashtra"
+  },
+  {
+    "supplierNumber": "11800",
+    "name": "Apex Courier",
+    "city": "Ranchi",
+    "state": "Jharkhand"
+  },
+  {
+    "supplierNumber": "11834",
+    "name": "Md Logistics",
+    "city": "New Delhi ",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "11845",
+    "name": "Aan Logistics",
+    "city": "New Delhi",
+    "state": "Delhi "
+  },
+  {
+    "supplierNumber": "11855",
+    "name": "Sr Logistics Sanju Roy",
+    "city": "Dist-North 24 Parganas,",
+    "state": "West Bengal"
+  },
+  {
+    "supplierNumber": "11857",
+    "name": "Bnlogisticspartner",
+    "city": "Hardoi",
+    "state": "Uttar Pradesh "
+  },
+  {
+    "supplierNumber": "11870",
+    "name": "Simr Logistics",
+    "city": "New Delhi",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "11902",
+    "name": "Anurag Transport Service",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "11931",
+    "name": "Gangadara Logistics",
+    "city": "Kurnool",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "supplierNumber": "11942",
+    "name": "Avs International Logistics",
+    "city": "Modinagggar",
+    "state": "Utter Pradesh"
+  },
+  {
+    "supplierNumber": "11955",
+    "name": "Truebird Logistics India Pvt Ltd",
+    "city": "Nagpur",
+    "state": "Maharashtra"
+  },
+  {
+    "supplierNumber": "11979",
+    "name": "Newkean Express",
+    "city": "Dakshin Dinajpur ",
+    "state": "West Bengal"
+  },
+  {
+    "supplierNumber": "11982",
+    "name": "Sohom Express Pvt Ltd",
+    "city": "Malda",
+    "state": "West Bengal"
+  },
+  {
+    "supplierNumber": "11984",
+    "name": "Mailman Logistic Solution",
+    "city": "Berhampore",
+    "state": "West Bengal"
+  },
+  {
+    "supplierNumber": "11985",
+    "name": "Tejas Prodelivery Services",
+    "city": "Greater Noida",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "11996",
+    "name": "Vaibhav Transport Company",
+    "city": "Bareilly",
+    "state": "Up"
+  },
+  {
+    "supplierNumber": "12001",
+    "name": "Ssk Roadlines Private Limited",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "supplierNumber": "12015",
+    "name": "Rahul Cargo And Movers Pvt Ltd",
+    "city": "Gurgaon",
+    "state": "Haryana"
+  },
+  {
+    "supplierNumber": "12026",
+    "name": "Shree Siddhi Vinayak Logistics",
+    "city": "East Singhbhum",
+    "state": "Jharkhand"
+  },
+  {
+    "supplierNumber": "12042",
+    "name": "Equinox Ecom Logistics",
+    "city": "Hingna",
+    "state": "Maharashatra"
+  },
+  {
+    "supplierNumber": "12072",
+    "name": "K & V Logistics Company",
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "supplierNumber": "12097",
+    "name": "M-S Reyansh Parcel Services",
+    "city": "Kurukshetra",
+    "state": "Haryana"
+  },
+  {
+    "supplierNumber": "12107",
+    "name": "Allcargo Supply Chain Private Limited",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "supplierNumber": "12109",
+    "name": "Axis Cargo Corporation",
+    "city": "Bangalore",
+    "state": "Karnataka "
+  },
+  {
+    "supplierNumber": "12112",
+    "name": "Gk Logistics",
+    "city": "Puttaparthi",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "supplierNumber": "12113",
+    "name": "Ktj Logistics Private Limited",
+    "city": "Greater Noida",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "12119",
+    "name": "Praseeda Express Logistics And Services",
+    "city": "Pidugurala",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "supplierNumber": "12120",
+    "name": "Bluebird Express",
+    "city": "Surat",
+    "state": "Gujarat"
+  },
+  {
+    "supplierNumber": "12122",
+    "name": "Avs Logistic India",
+    "city": "South Ganesh Nagar Delhi",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "12137",
+    "name": "Zenith Logistics And Express Services Pvt Ltd",
+    "city": "Patna",
+    "state": "Bihar"
+  },
+  {
+    "supplierNumber": "12138",
+    "name": "Sristi Express & Transport Pvt Ltd",
+    "city": "Ranchi",
+    "state": "Jharkhand"
+  },
+  {
+    "supplierNumber": "12139",
+    "name": "T&F Express",
+    "city": "Patna ",
+    "state": "Bihar"
+  },
+  {
+    "supplierNumber": "12143",
+    "name": "Patliputra Logistics Private Limited",
+    "city": "Ranchi",
+    "state": "Jharkhand"
+  },
+  {
+    "supplierNumber": "12147",
+    "name": "Kamla Freight Carrier",
+    "city": "Nagpur",
+    "state": "Maharashtra "
+  },
+  {
+    "supplierNumber": "12182",
+    "name": "Tirupati Express Services",
+    "city": "Ranchi",
+    "state": "Jharkhand"
+  },
+  {
+    "supplierNumber": "12183",
+    "name": "Shivaay Express",
+    "city": "Surat",
+    "state": "Gujarat"
+  },
+  {
+    "supplierNumber": "12184",
+    "name": "Babaexpress Ecom Pvt Ltd",
+    "city": "Sachin",
+    "state": "Gujarat"
+  },
+  {
+    "supplierNumber": "12219",
+    "name": "Ncs Logistics And Distribution Pvt Ltd",
+    "city": "Mumbai",
+    "state": "Maharashatra"
+  },
+  {
+    "supplierNumber": "12226",
+    "name": "Ninjatruck Transport Llp",
+    "city": "Siliguri",
+    "state": "West Bengal"
+  },
+  {
+    "supplierNumber": "12240",
+    "name": "Balaji Couriers",
+    "city": "Alwar",
+    "state": "Rajasthan "
+  },
+  {
+    "supplierNumber": "12246",
+    "name": "M.D.Transport Co",
+    "city": "Gurgaon ",
+    "state": "Haryana "
+  },
+  {
+    "supplierNumber": "12265",
+    "name": "Balaji Logistics Solutions",
+    "city": "Kanpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "12273",
+    "name": "Braazo Delivery Services Private Limited",
+    "city": "Gurgaon",
+    "state": "Haryana"
+  },
+  {
+    "supplierNumber": "12285",
+    "name": "Chitra Aver Logistic",
+    "city": "Kanpur Nagar",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "12288",
+    "name": "Shree Maruti Integrated Logistics Ltd",
+    "city": "Delhi",
+    "state": "New Delhi"
+  },
+  {
+    "supplierNumber": "12297",
+    "name": "Krushnai Transport (Mangala Sushil Shinde)",
+    "city": "Pune",
+    "state": "Maharashtra "
+  },
+  {
+    "supplierNumber": "12298",
+    "name": "Reliable Delivery Services",
+    "city": "Yamunanagar",
+    "state": "Haryana"
+  },
+  {
+    "supplierNumber": "12314",
+    "name": "Sunrise Enterprises & Logistics",
+    "city": "",
+    "state": "Maharashtra "
+  },
+  {
+    "supplierNumber": "12324",
+    "name": "All Rounder Goods Carriers",
+    "city": "New Delhi",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "12343",
+    "name": "Pvik Logistics",
+    "city": "Jajjar",
+    "state": "Haryana"
+  },
+  {
+    "supplierNumber": "12346",
+    "name": "Parbati Courier And Cargo",
+    "city": "Siliguri",
+    "state": "West Bengal"
+  },
+  {
+    "supplierNumber": "12383",
+    "name": "Indian Express Courier Services",
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "supplierNumber": "12384",
+    "name": "Rajuram Courier",
+    "city": "Nagaur",
+    "state": "Rajasthan"
+  },
+  {
+    "supplierNumber": "12390",
+    "name": "Maa Logistics",
+    "city": "Dehri-On-Sone",
+    "state": "Bihar"
+  },
+  {
+    "supplierNumber": "12400",
+    "name": "First Choice Logistics",
+    "city": "Malad West",
+    "state": "Mumbai"
+  },
+  {
+    "supplierNumber": "12444",
+    "name": "Picodel Logistics Pvt Ltd",
+    "city": "Pune",
+    "state": "Maharashtra "
+  },
+  {
+    "supplierNumber": "12471",
+    "name": "Abhi Express Courier",
+    "city": "Mirzapur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "12487",
+    "name": "Proconnect Supply Chain Solution Ltd",
+    "city": "Chennai \u2013 ",
+    "state": "Tamil Nadu"
+  },
+  {
+    "supplierNumber": "12490",
+    "name": "M/S Om Couriers & Cargo Services",
+    "city": "Bhiwani",
+    "state": "Haryana"
+  },
+  {
+    "supplierNumber": "12519",
+    "name": "M/S Rudra Logistics & Solutions",
+    "city": "Bhubaneswar",
+    "state": "Odisha"
+  },
+  {
+    "supplierNumber": "12529",
+    "name": "Dts Cargo Pvt. Ltd.",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "12567",
+    "name": "Tej Supply Chain Pvt Ltd",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "12644",
+    "name": "Royals Transport",
+    "city": "Near  Niraj Cement Agency",
+    "state": "Bihar"
+  },
+  {
+    "supplierNumber": "12705",
+    "name": "D. O. T. Transportation And Logistics Services Llp",
+    "city": "Navi Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "supplierNumber": "12711",
+    "name": "Mateshwari Logistic",
+    "city": "Jagpura",
+    "state": "Rajasthan"
+  },
+  {
+    "supplierNumber": "12782",
+    "name": "Golden Sparrow Courier Services",
+    "city": "Hanumangarh",
+    "state": "Rajasthan"
+  },
+  {
+    "supplierNumber": "12796",
+    "name": "Konnect Cargo Logistics",
+    "city": "Jaggaiahpet",
+    "state": "Andhra Praesh"
+  },
+  {
+    "supplierNumber": "12908",
+    "name": "Bn Logistics",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "supplierNumber": "12921",
+    "name": "Lekya Logistics Private Limited",
+    "city": "Hari Nagar Ashram New Delhi",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "12941",
+    "name": "Spark Supply Chain Solutions Pvt Ltd",
+    "city": "Narela",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "12951",
+    "name": "Shree Hari Logistic",
+    "city": "Kishangarh",
+    "state": "Rajasthan"
+  },
+  {
+    "supplierNumber": "13029",
+    "name": "Tnbhowmik Courier Service",
+    "city": "",
+    "state": "West Bengal"
+  },
+  {
+    "supplierNumber": "13047",
+    "name": "Z Roadways",
+    "city": "Ahmadabad ",
+    "state": "Gujarat"
+  },
+  {
+    "supplierNumber": "13065",
+    "name": "Suna Travel & Transport",
+    "city": "Bhubaneswar",
+    "state": "Odisha"
+  },
+  {
+    "supplierNumber": "13069",
+    "name": "Shree Dev Group Of Logistic",
+    "city": "Kota",
+    "state": "Rajasthan"
+  },
+  {
+    "supplierNumber": "13072",
+    "name": "Shiv Pahal Logistics Solution",
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "supplierNumber": "13082",
+    "name": "Smart Route Logistics Pvt Ltd",
+    "city": "Bangalore",
+    "state": "Karanataka"
+  },
+  {
+    "supplierNumber": "13102",
+    "name": "Quick Logistics",
+    "city": "Thane",
+    "state": "Maharashtra "
+  },
+  {
+    "supplierNumber": "13126",
+    "name": "Ekvira Logistics",
+    "city": "Amravati,",
+    "state": "Maharashtra "
+  },
+  {
+    "supplierNumber": "13160",
+    "name": "Vaishali Transcarriers Private Limited",
+    "city": "Mumbai",
+    "state": "Maharashtra "
+  },
+  {
+    "supplierNumber": "13175",
+    "name": "Aar Infinty Logistics",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "supplierNumber": "13191",
+    "name": "Krantidhara Express Cargo Services",
+    "city": "Bhubaneswar",
+    "state": "Odisha"
+  },
+  {
+    "supplierNumber": "13219",
+    "name": "M&Slogistics",
+    "city": "Gurugram",
+    "state": "Haryana"
+  },
+  {
+    "supplierNumber": "13239",
+    "name": "M2M Travels & Logistics",
+    "city": "Gurgaon",
+    "state": "Haryana"
+  },
+  {
+    "supplierNumber": "13254",
+    "name": "Jmv Roadlines",
+    "city": "Indore",
+    "state": " Madhya Pradesh"
+  },
+  {
+    "supplierNumber": "13255",
+    "name": "S S Logistics..",
+    "city": "Cuttack",
+    "state": "Odisha"
+  },
+  {
+    "supplierNumber": "13286",
+    "name": "Marzi Logistics",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "supplierNumber": "13349",
+    "name": "Ship And Short Logistics",
+    "city": "New Delhi, ",
+    "state": "Delhi"
+  },
+  {
+    "supplierNumber": "13362",
+    "name": "Ruh India Logistics",
+    "city": "Siliguri",
+    "state": "734001"
+  },
+  {
+    "supplierNumber": "13430",
+    "name": "Sri Lakshmi Manikanta Logistics",
+    "city": "Bapatla",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "supplierNumber": "13446",
+    "name": "Madhabi Logistics",
+    "city": "Siliguri",
+    "state": "West Bengal"
+  }
+]

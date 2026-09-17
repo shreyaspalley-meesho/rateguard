@@ -1,0 +1,60 @@
+- generic [active] [ref=f31e1]:
+  - generic [ref=f31e3]:
+    - banner [ref=f31e4]:
+      - generic [ref=f31e5]:
+        - button "Open menu" [ref=f31e6]:
+          - generic [ref=f31e7]: ☰
+        - generic [ref=f31e8]: Submit rate
+      - generic [ref=f31e9]:
+        - link "notifications" [ref=f31e10] [cursor=pointer]:
+          - /url: /notifications
+          - generic "notifications" [ref=f31e11]: 🔔
+        - combobox [ref=f31e12]:
+          - option "Ramesh Kumar · FM Cluster Head"
+          - option "Priya Menon · SC Business Team" [selected]
+          - option "Tajinder Kaur · Ops Head (FM)"
+          - option "Soumya Varma · Ops Head (SC)"
+          - option "Vidhi Sharma · BizFin"
+          - option "Ankita Agarwal · Controllership"
+          - option "Mekha Vijayakumar · Legal"
+          - option "Ops Excellence · Admin"
+          - option "Ajay Singh · Zonal Head (read-only)"
+    - main [ref=f31e13]:
+      - generic [ref=f31e95]:
+        - generic [ref=f31e98]:
+          - button "Back" [ref=f31e99]: ←
+          - generic [ref=f31e100]:
+            - generic [ref=f31e101]: Submit rate · SC
+            - generic [ref=f31e102]: BLR7 · BLR7 CrossDock
+          - generic [ref=f31e103]: Step 1 of 5
+        - generic [ref=f31e110]:
+          - heading "Where is this rate for?" [level=2] [ref=f31e111]
+          - generic [ref=f31e112]:
+            - generic [ref=f31e113]:
+              - generic [ref=f31e114]:
+                - text: Hub
+                - generic [ref=f31e115]: (SC only)
+              - combobox [ref=f31e116]:
+                - option "Select a hub…"
+                - option "BLR7 · BLR7 CrossDock · Bengaluru · FMSC+CD" [selected]
+                - option "FMSC1 · FMSC Mumbai · Mumbai · FMSC"
+                - option "GW1 · Gateway Mumbai · Mumbai · GW"
+            - generic [ref=f31e117]:
+              - generic [ref=f31e118]: SC
+              - generic "Hub lifecycle status (KRD §1.2.13 / §2.2.14)" [ref=f31e119]: Live · agreement executed
+          - generic [ref=f31e120]:
+            - generic [ref=f31e121]:
+              - generic [ref=f31e122]: Oracle ID
+              - generic [ref=f31e123]: OR70012
+            - generic [ref=f31e124]:
+              - generic [ref=f31e125]: Owner
+              - generic [ref=f31e126]: Priya Menon
+            - generic [ref=f31e127]:
+              - generic [ref=f31e128]: Hub type
+              - generic [ref=f31e129]: SC · FMSC + CD
+            - generic [ref=f31e130]:
+              - generic [ref=f31e131]: Zone
+              - generic [ref=f31e132]: South
+        - button "Continue" [ref=f31e134] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f31e90] [cursor=pointer]
+  - alert [ref=f31e94]

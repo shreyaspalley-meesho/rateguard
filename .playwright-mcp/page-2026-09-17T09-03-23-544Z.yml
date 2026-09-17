@@ -1,0 +1,124 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - complementary [ref=f6e3]:
+      - generic [ref=f6e4]:
+        - img "Meesho" [ref=f6e5]
+        - generic [ref=f6e6]:
+          - generic [ref=f6e7]: RateGuard
+          - generic [ref=f6e8]: FM · SC v1
+      - navigation [ref=f6e9]:
+        - link "Home" [ref=f6e10] [cursor=pointer]:
+          - /url: /
+        - link "Submit rate" [ref=f6e11] [cursor=pointer]:
+          - /url: /submit
+        - link "My requests" [ref=f6e12] [cursor=pointer]:
+          - /url: /requests
+        - link "Rate lineage" [ref=f6e13] [cursor=pointer]:
+          - /url: /lineage
+        - link "Notifications" [ref=f6e14] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=f6e15]: Prototype · Data in browser
+    - generic [ref=f6e16]:
+      - banner [ref=f6e17]:
+        - generic [ref=f6e18]: RateGuard
+        - generic [ref=f6e20]:
+          - generic [ref=f6e21]:
+            - generic [ref=f6e22]: ⌕
+            - textbox "Global search" [ref=f6e23]:
+              - /placeholder: Search hubs, Oracle ID, vendor…
+          - link "notifications" [ref=f6e24] [cursor=pointer]:
+            - /url: /notifications
+            - generic "notifications" [ref=f6e25]: 🔔
+          - combobox [ref=f6e26]:
+            - option "Ramesh Kumar · FM Cluster Head" [selected]
+            - option "Priya Menon · SC Business Team"
+            - option "Tajinder Kaur · Ops Head (FM)"
+            - option "Soumya Varma · Ops Head (SC)"
+            - option "Vidhi Sharma · BizFin"
+            - option "Ankita Agarwal · Controllership"
+            - option "Mekha Vijayakumar · Legal"
+            - option "Ops Excellence · Admin"
+            - option "Ajay Singh · Zonal Head (read-only)"
+          - generic [ref=f6e27]: RK
+      - main [ref=f6e28]:
+        - generic [ref=f6e29]:
+          - link "← queue" [ref=f6e30] [cursor=pointer]:
+            - /url: /approvals
+          - generic [ref=f6e31]:
+            - heading "RC-FM-HUB9-202609-001" [level=1] [ref=f6e32]
+            - generic [ref=f6e33]:
+              - generic [ref=f6e34]: Pending
+              - generic [ref=f6e35]: Not needed
+          - paragraph [ref=f6e36]: Hub 9 Koramangala · FM-OLD · submitted by Ajay Singh
+          - generic [ref=f6e38]:
+            - generic [ref=f6e39]: "Guardrail v12: No ceiling row for Standalone × Bengaluru → BizFin"
+            - generic [ref=f6e40]: "Route: BizFin"
+          - generic [ref=f6e41]:
+            - generic [ref=f6e42]:
+              - heading "Tiers" [level=3] [ref=f6e43]
+              - table [ref=f6e44]:
+                - rowgroup [ref=f6e45]:
+                  - row [ref=f6e46]:
+                    - columnheader "Tier" [ref=f6e47]
+                    - columnheader "Proposed" [ref=f6e48]
+                    - columnheader "Ceiling" [ref=f6e49]
+                - rowgroup [ref=f6e50]:
+                  - row [ref=f6e51]:
+                    - cell "T1 · ≤5000" [ref=f6e52]
+                    - cell "₹44.00" [ref=f6e53]
+                    - cell "—" [ref=f6e54]
+                  - row [ref=f6e55]:
+                    - cell "T2 · ≤10000" [ref=f6e56]
+                    - cell "₹42.00" [ref=f6e57]
+                    - cell "—" [ref=f6e58]
+                  - row [ref=f6e59]:
+                    - cell "T3 · ≤15000" [ref=f6e60]
+                    - cell "₹40.00" [ref=f6e61]
+                    - cell "—" [ref=f6e62]
+                  - row [ref=f6e63]:
+                    - cell "T4 · ≤20000" [ref=f6e64]
+                    - cell "₹38.00" [ref=f6e65]
+                    - cell "—" [ref=f6e66]
+                  - row [ref=f6e67]:
+                    - cell "T5 · >20000" [ref=f6e68]
+                    - cell "₹36.00" [ref=f6e69]
+                    - cell "—" [ref=f6e70]
+            - generic [ref=f6e71]:
+              - heading "Details" [level=3] [ref=f6e72]
+              - generic [ref=f6e73]:
+                - generic [ref=f6e74]:
+                  - term [ref=f6e75]: Effective from
+                  - definition [ref=f6e76]: 2026-09-20
+                - generic [ref=f6e77]:
+                  - term [ref=f6e78]: Negotiated on
+                  - definition [ref=f6e79]: 2026-09-10
+                - generic [ref=f6e80]:
+                  - term [ref=f6e81]: Guardrail version
+                  - definition [ref=f6e82]: v12
+                - generic [ref=f6e83]:
+                  - term [ref=f6e84]: Oracle ID
+                  - definition [ref=f6e85]: OR55021
+                - generic [ref=f6e86]:
+                  - term [ref=f6e87]: Owner
+                  - definition [ref=f6e88]: Ajay Singh
+                - generic [ref=f6e89]:
+                  - term [ref=f6e90]: Partner
+                  - definition [ref=f6e91]: "Ecom Express Private Limited #10058"
+          - generic [ref=f6e92]:
+            - heading "Submitter remarks" [level=3] [ref=f6e93]
+            - paragraph [ref=f6e94]: Peak season revision, within-band.
+          - generic [ref=f6e95]:
+            - heading "Event log" [level=3] [ref=f6e96]
+            - list [ref=f6e97]:
+              - listitem [ref=f6e98]:
+                - generic [ref=f6e99]: Sep 14, 2026, 1:53 PM
+                - generic [ref=f6e100]: Submitted
+                - generic [ref=f6e101]: Ajay Singh — Routed to Ops Head (FM)
+          - generic [ref=f6e102]:
+            - heading "Decision" [level=3] [ref=f6e103]
+            - generic [ref=f6e104]:
+              - textbox "Approval reason (optional)" [ref=f6e105]
+              - generic [ref=f6e106]:
+                - button "Approve" [ref=f6e107] [cursor=pointer]
+                - button "Reject…" [ref=f6e108] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f6e114] [cursor=pointer]

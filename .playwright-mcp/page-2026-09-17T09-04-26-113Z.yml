@@ -1,0 +1,56 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e113] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=f6e114]
+    - generic [ref=f6e118]:
+      - button "Open issues overlay" [ref=f6e119]:
+        - generic [ref=f6e120]:
+          - generic [aria-hidden] [ref=f6e121]: "0"
+          - generic [ref=f6e122]: "1"
+        - generic [ref=f6e123]: Issue
+      - button "Collapse issues badge" [ref=f6e124]
+  - generic [ref=f6e127]:
+    - complementary [ref=f6e128]:
+      - generic [ref=f6e129]:
+        - img "Meesho" [ref=f6e130]
+        - generic [ref=f6e131]:
+          - generic [ref=f6e132]: RateGuard
+          - generic [ref=f6e133]: FM · SC v1
+      - navigation [ref=f6e134]:
+        - link "Home" [ref=f6e135] [cursor=pointer]:
+          - /url: /
+        - link "Approvals queue" [ref=f6e136] [cursor=pointer]:
+          - /url: /approvals
+        - link "Rate lineage" [ref=f6e137] [cursor=pointer]:
+          - /url: /lineage
+        - link "Notifications" [ref=f6e138] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=f6e139]: Prototype · Data in browser
+    - generic [ref=f6e140]:
+      - banner [ref=f6e141]:
+        - generic [ref=f6e142]: Approvals queue
+        - generic [ref=f6e144]:
+          - generic [ref=f6e145]:
+            - generic [ref=f6e146]: ⌕
+            - textbox "Global search" [ref=f6e147]:
+              - /placeholder: Search hubs, Oracle ID, vendor…
+          - link "notifications" [ref=f6e148] [cursor=pointer]:
+            - /url: /notifications
+            - generic "notifications" [ref=f6e149]: 🔔
+          - combobox [ref=f6e150]:
+            - option "Ramesh Kumar · FM Cluster Head"
+            - option "Priya Menon · SC Business Team"
+            - option "Tajinder Kaur · Ops Head (FM)" [selected]
+            - option "Soumya Varma · Ops Head (SC)"
+            - option "Vidhi Sharma · BizFin"
+            - option "Ankita Agarwal · Controllership"
+            - option "Mekha Vijayakumar · Legal"
+            - option "Ops Excellence · Admin"
+            - option "Ajay Singh · Zonal Head (read-only)"
+          - generic [ref=f6e151]: TK
+      - main [ref=f6e152]:
+        - generic [ref=f6e237]:
+          - generic [ref=f6e239]:
+            - heading "Approvals queue" [level=1] [ref=f6e240]
+            - paragraph [ref=f6e241]: Oldest first · 0 pending for OpsHead-FM
+          - generic [ref=f6e242]: Queue is empty.
+  - alert [ref=f6e233]

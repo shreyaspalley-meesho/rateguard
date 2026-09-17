@@ -1,0 +1,229 @@
+- generic [active] [ref=f30e1]:
+  - generic [ref=f30e2]:
+    - complementary [ref=f30e3]:
+      - generic [ref=f30e4]:
+        - img "Meesho" [ref=f30e5]
+        - generic [ref=f30e6]:
+          - generic [ref=f30e7]: RateGuard
+          - generic [ref=f30e8]: FM · SC v1
+      - navigation [ref=f30e9]:
+        - link "Home" [ref=f30e10] [cursor=pointer]:
+          - /url: /
+        - link "Submit rate" [ref=f30e11] [cursor=pointer]:
+          - /url: /submit
+        - link "My requests" [ref=f30e12] [cursor=pointer]:
+          - /url: /requests
+        - link "Rate lineage" [ref=f30e13] [cursor=pointer]:
+          - /url: /lineage
+        - link "Notifications" [ref=f30e14] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=f30e15]: Prototype · Data in browser
+    - generic [ref=f30e16]:
+      - banner [ref=f30e17]:
+        - generic [ref=f30e18]: Submit rate
+        - generic [ref=f30e20]:
+          - generic [ref=f30e21]:
+            - generic [ref=f30e22]: ⌕
+            - textbox "Global search" [ref=f30e23]:
+              - /placeholder: Search hubs, Oracle ID, vendor…
+          - link "notifications" [ref=f30e24] [cursor=pointer]:
+            - /url: /notifications
+            - generic "notifications" [ref=f30e25]: 🔔
+          - combobox [ref=f30e26]:
+            - option "Ramesh Kumar · FM Cluster Head"
+            - option "Priya Menon · SC Business Team" [selected]
+            - option "Tajinder Kaur · Ops Head (FM)"
+            - option "Soumya Varma · Ops Head (SC)"
+            - option "Vidhi Sharma · BizFin"
+            - option "Ankita Agarwal · Controllership"
+            - option "Mekha Vijayakumar · Legal"
+            - option "Ops Excellence · Admin"
+            - option "Ajay Singh · Zonal Head (read-only)"
+          - generic [ref=f30e27]: PM
+      - main [ref=f30e28]:
+        - generic [ref=f30e29]:
+          - generic [ref=f30e30]:
+            - heading "Submit rate" [level=1] [ref=f30e31]
+            - generic [ref=f30e32]: SC
+          - paragraph [ref=f30e33]: SC Business Team flow — vendor-defined slab structure per KRD §2.1. Routes to BizFin (no SC ceilings published).
+          - generic [ref=f30e110]:
+            - generic [ref=f30e111]:
+              - generic [ref=f30e112]:
+                - generic [ref=f30e113]: "1"
+                - heading "Location" [level=2] [ref=f30e114]
+              - generic [ref=f30e115]:
+                - generic [ref=f30e116]:
+                  - generic [ref=f30e117]:
+                    - text: Hub
+                    - generic [ref=f30e118]: (SC only)
+                  - combobox [ref=f30e119]:
+                    - option "Select a hub…"
+                    - option "BLR7 · BLR7 CrossDock · Bengaluru · FMSC+CD" [selected]
+                    - option "FMSC1 · FMSC Mumbai · Mumbai · FMSC"
+                    - option "GW1 · Gateway Mumbai · Mumbai · GW"
+                - generic [ref=f30e120]:
+                  - generic [ref=f30e121]: SC
+                  - generic "Hub lifecycle status (KRD §1.2.13 / §2.2.14)" [ref=f30e122]: Live · agreement executed
+              - generic [ref=f30e123]:
+                - generic [ref=f30e124]:
+                  - generic [ref=f30e125]: Oracle ID
+                  - generic [ref=f30e126]: OR70012
+                - generic [ref=f30e127]:
+                  - generic [ref=f30e128]: Owner
+                  - generic [ref=f30e129]: Priya Menon
+                - generic [ref=f30e130]:
+                  - generic [ref=f30e131]: Hub type
+                  - generic [ref=f30e132]: SC · FMSC + CD
+                - generic [ref=f30e133]:
+                  - generic [ref=f30e134]: Zone
+                  - generic [ref=f30e135]: South
+            - generic [ref=f30e136]:
+              - generic [ref=f30e137]:
+                - generic [ref=f30e138]: "2"
+                - heading "Sub-types & derived structure" [level=2] [ref=f30e139]
+                - generic [ref=f30e140]: KRD §2.0 — pick the SC sub-types; the rate structure follows
+              - generic [ref=f30e141]:
+                - generic [ref=f30e142]: SC sub-types (KRD §2.0) multi-select
+                - generic [ref=f30e143]:
+                  - button "FMSC Slab rate/shipment · MG applicable · may co-exist with LMSC" [ref=f30e144]:
+                    - generic [ref=f30e145]:
+                      - checkbox [checked]
+                      - generic [ref=f30e146]: FMSC
+                    - generic [ref=f30e147]: Slab rate/shipment · MG applicable · may co-exist with LMSC
+                  - button "LMSC Slab rate/shipment · MG applicable · may co-exist with FMSC" [ref=f30e148]:
+                    - generic [ref=f30e149]:
+                      - checkbox
+                      - generic [ref=f30e150]: LMSC
+                    - generic [ref=f30e151]: Slab rate/shipment · MG applicable · may co-exist with FMSC
+                  - button "CrossDock (CD) Flat rate/bag · must be paired with FMSC or LMSC" [ref=f30e152]:
+                    - generic [ref=f30e153]:
+                      - checkbox [checked]
+                      - generic [ref=f30e154]: CrossDock (CD)
+                    - generic [ref=f30e155]: Flat rate/bag · must be paired with FMSC or LMSC
+                  - button "Gateway (GW) Slab rate/bag · standalone — cannot combine with FMSC/LMSC/CD" [ref=f30e156]:
+                    - generic [ref=f30e157]:
+                      - checkbox
+                      - generic [ref=f30e158]: Gateway (GW)
+                    - generic [ref=f30e159]: Slab rate/bag · standalone — cannot combine with FMSC/LMSC/CD
+              - generic [ref=f30e160]:
+                - generic [ref=f30e161]: Derived from sub-types · read-only
+                - generic [ref=f30e162]:
+                  - generic [ref=f30e163]:
+                    - generic [ref=f30e164]: Sub-types
+                    - generic [ref=f30e165]: FMSC + CD
+                  - generic [ref=f30e166]:
+                    - generic [ref=f30e167]: Unit
+                    - generic [ref=f30e168]: ₹/shipment
+                  - generic [ref=f30e169]:
+                    - generic [ref=f30e170]: Structure
+                    - generic [ref=f30e171]: Vendor-defined · up to 10 slabs
+                - generic [ref=f30e172]: Flat CrossDock ₹/bag captured separately below (KRD §2.1.2).
+            - generic [ref=f30e173]:
+              - generic [ref=f30e174]:
+                - generic [ref=f30e175]: "3"
+                - heading "Slab structure" [level=2] [ref=f30e176]
+                - generic [ref=f30e177]: Vendor-defined · up to 10 slabs (KRD §2.1.1)
+              - generic [ref=f30e178]:
+                - generic [ref=f30e179]:
+                  - generic [ref=f30e180]: "#"
+                  - generic [ref=f30e181]: Up to (shipments)
+                  - generic [ref=f30e182]: Rate ₹
+                  - generic [ref=f30e183]: Blended ₹
+                - generic [ref=f30e185]:
+                  - generic [ref=f30e186]: "1"
+                  - generic [ref=f30e187]: No upper limit
+                  - spinbutton "0.00" [ref=f30e189]
+                  - generic [ref=f30e190]:
+                    - text: —
+                    - generic [ref=f30e191]: derived
+                  - button "Remove tier 1" [disabled] [ref=f30e192]: ×
+                - generic [ref=f30e193]:
+                  - button "+ Add tier" [ref=f30e194] [cursor=pointer]
+                  - generic [ref=f30e195]: 1 of 10 tiers · KRD §2.1.1
+            - generic [ref=f30e196]:
+              - generic [ref=f30e197]:
+                - generic [ref=f30e198]: "4"
+                - heading "CrossDock bag rate" [level=2] [ref=f30e199]
+                - generic [ref=f30e200]: KRD §2.1.2 — flat ₹/bag captured separately
+              - generic [ref=f30e202]:
+                - generic [ref=f30e203]: CrossDock bag rate (₹/bag)
+                - spinbutton "e.g. 14.00" [ref=f30e204]
+                - generic [ref=f30e205]: Flat rate per bag · KRD §2.1.2
+            - generic [ref=f30e206]:
+              - generic [ref=f30e207]:
+                - generic [ref=f30e208]: "5"
+                - heading "Commercial clauses" [level=2] [ref=f30e209]
+                - generic [ref=f30e210]: MG, lock-in, notice period — all optional (KRD §2.1.3)
+              - generic [ref=f30e211]:
+                - generic [ref=f30e212]:
+                  - text: Clauses for SC
+                  - generic [ref=f30e213]: · FMSC + CD
+                - generic [ref=f30e214]:
+                  - generic [ref=f30e215]:
+                    - generic [ref=f30e216]: Minimum Guarantee (₹) optional
+                    - spinbutton "Monthly amount" [ref=f30e217]
+                    - generic [ref=f30e218]: Monthly amount
+                  - generic [ref=f30e219]:
+                    - generic [ref=f30e220]: MG trigger
+                    - textbox "e.g. Below 1,20,000 shipments" [ref=f30e221]
+                    - generic [ref=f30e222]: When MG becomes payable
+                  - generic [ref=f30e223]:
+                    - generic [ref=f30e224]: Lock-in (months)
+                    - spinbutton "e.g. 12" [ref=f30e225]
+                    - generic [ref=f30e226]: MG stays payable through
+                  - generic [ref=f30e227]:
+                    - generic [ref=f30e228]: Notice period (months)
+                    - spinbutton "e.g. 3" [ref=f30e229]
+                    - generic [ref=f30e230]: MG payable through notice on offboarding
+              - generic [ref=f30e232] [cursor=pointer]:
+                - checkbox "Add an incentive to this rate card — or raise it later as its own submission" [ref=f30e233]
+                - generic [ref=f30e234]: Add an incentive to this rate card
+                - generic [ref=f30e235]: — or raise it later as its own submission
+            - generic [ref=f30e236]:
+              - generic [ref=f30e237]:
+                - generic [ref=f30e238]: "6"
+                - heading "Dates & remarks" [level=2] [ref=f30e239]
+              - generic [ref=f30e240]:
+                - generic [ref=f30e241]:
+                  - generic [ref=f30e242]: Effective from
+                  - textbox [ref=f30e243]: 2026-09-17
+                - generic [ref=f30e244]:
+                  - generic [ref=f30e245]: Negotiated on
+                  - textbox [ref=f30e246]: 2026-09-17
+              - generic [ref=f30e247]:
+                - generic [ref=f30e248]: Remarks approver reads this first
+                - textbox "Context, negotiation notes, why this rate…" [ref=f30e249]
+            - generic [ref=f30e250]:
+              - generic [ref=f30e251]:
+                - generic [ref=f30e252]: "7"
+                - heading "Review & submit" [level=2] [ref=f30e253]
+              - generic [ref=f30e254]:
+                - generic [ref=f30e255]:
+                  - generic [ref=f30e256]: Hub
+                  - generic [ref=f30e257]: BLR7 · BLR7 CrossDock
+                - generic [ref=f30e258]:
+                  - generic [ref=f30e259]: Oracle ID
+                  - generic [ref=f30e260]: OR70012
+                - generic [ref=f30e261]:
+                  - generic [ref=f30e262]: Change type
+                  - generic [ref=f30e263]: SC-SLAB
+                - generic [ref=f30e264]:
+                  - generic [ref=f30e265]: Structure
+                  - generic [ref=f30e266]: Vendor-defined · 1 slab
+                - generic [ref=f30e267]:
+                  - generic [ref=f30e268]: Effective from
+                  - generic [ref=f30e269]: 2026-09-17
+                - generic [ref=f30e270]:
+                  - generic [ref=f30e271]: Negotiated
+                  - generic [ref=f30e272]: 2026-09-17
+                - generic [ref=f30e273]:
+                  - generic [ref=f30e274]: Guardrail
+                  - generic [ref=f30e275]: v12 · no-ceiling
+              - generic [ref=f30e277]:
+                - generic [ref=f30e278]: "Route: BizFin"
+                - generic [ref=f30e279]: SC ratecards route here by default — no city guardrails are published (KRD OQ-06). Approvers see the deal and clauses in full.
+              - generic [ref=f30e280]:
+                - button "Submit request" [disabled] [ref=f30e281]
+                - generic [ref=f30e282]: Fill in all tier rates, CrossDock bag rate to submit.
+  - button "Open Next.js Dev Tools" [ref=f30e105] [cursor=pointer]
+  - alert [ref=f30e109]

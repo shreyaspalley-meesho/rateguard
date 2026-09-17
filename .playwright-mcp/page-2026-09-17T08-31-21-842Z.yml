@@ -1,0 +1,104 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - img "Meesho" [ref=e5]
+        - generic [ref=e6]:
+          - generic [ref=e7]: RateGuard
+          - generic [ref=e8]: FM · SC v1
+      - navigation [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - link "Submit rate" [ref=e11] [cursor=pointer]:
+          - /url: /submit
+        - link "My requests" [ref=e12] [cursor=pointer]:
+          - /url: /requests
+        - link "Rate lineage" [ref=e13] [cursor=pointer]:
+          - /url: /lineage
+        - link "Notifications" [ref=e14] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=e15]: Prototype · Data in browser
+    - generic [ref=e16]:
+      - banner [ref=e17]:
+        - generic [ref=e18]: Home
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - generic [ref=e22]: ⌕
+            - textbox "Global search" [ref=e23]:
+              - /placeholder: Search hubs, Oracle ID, vendor…
+          - link "notifications" [ref=e24] [cursor=pointer]:
+            - /url: /notifications
+            - generic "notifications" [ref=e25]: 🔔
+          - combobox [ref=e26]:
+            - option "Ramesh Kumar · FM Cluster Head" [selected]
+            - option "Priya Menon · SC Business Team"
+            - option "Tajinder Kaur · Ops Head (FM)"
+            - option "Soumya Varma · Ops Head (SC)"
+            - option "Vidhi Sharma · BizFin"
+            - option "Ankita Agarwal · Controllership"
+            - option "Mekha Vijayakumar · Legal"
+            - option "Ops Excellence · Admin"
+            - option "Ajay Singh · Zonal Head (read-only)"
+          - generic [ref=e27]: RK
+      - main [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - heading "Welcome, Ramesh" [level=1] [ref=e31]
+            - paragraph [ref=e32]: FM Cluster Head · Thursday, September 17th, 2026
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - generic [ref=e36]: "1"
+              - generic [ref=e37]: Executed rates
+            - generic [ref=e38]:
+              - generic [ref=e40]: "2"
+              - generic [ref=e41]: Pending decisions
+            - generic [ref=e42]:
+              - generic [ref=e44]: "1"
+              - generic [ref=e45]: Awaiting addendum
+            - generic [ref=e46]:
+              - generic [ref=e48]: "6"
+              - generic [ref=e49]: Total requests
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - heading "My recent requests" [level=2] [ref=e52]
+              - link "+ New rate" [ref=e53] [cursor=pointer]:
+                - /url: /submit
+            - table [ref=e54]:
+              - rowgroup [ref=e55]:
+                - row [ref=e56]:
+                  - columnheader "ID" [ref=e57]
+                  - columnheader "Hub" [ref=e58]
+                  - columnheader "Type" [ref=e59]
+                  - columnheader "State" [ref=e60]
+                  - columnheader "Evidence" [ref=e61]
+                  - columnheader [ref=e62]
+              - rowgroup [ref=e63]:
+                - row [ref=e64]:
+                  - cell "RC-FM-HUB14-202608-001" [ref=e65]
+                  - cell "HUB14" [ref=e66]
+                  - cell "FM-NEW" [ref=e67]
+                  - cell "Approved" [ref=e68]
+                  - cell "Awaiting" [ref=e70]
+                  - cell [ref=e72]:
+                    - link "Open →" [ref=e73] [cursor=pointer]:
+                      - /url: /requests
+                - row [ref=e74]:
+                  - cell "RC-FM-SSY-202607-001" [ref=e75]
+                  - cell "SSY" [ref=e76]
+                  - cell "FM-NEW" [ref=e77]
+                  - cell "Executed" [ref=e78]
+                  - cell "Verified" [ref=e80]
+                  - cell [ref=e82]:
+                    - link "Open →" [ref=e83] [cursor=pointer]:
+                      - /url: /requests
+                - row [ref=e84]:
+                  - cell "RC-FM-HUB5-202608-003" [ref=e85]
+                  - cell "HUB5" [ref=e86]
+                  - cell "FM-NEW" [ref=e87]
+                  - cell "Rejected" [ref=e88]
+                  - cell "Not needed" [ref=e90]
+                  - cell [ref=e92]:
+                    - link "Open →" [ref=e93] [cursor=pointer]:
+                      - /url: /requests
+  - button "Open Next.js Dev Tools" [ref=e99] [cursor=pointer]
+  - alert [ref=e103]

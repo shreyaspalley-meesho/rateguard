@@ -1,0 +1,104 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - complementary [ref=f7e3]:
+      - generic [ref=f7e4]:
+        - img "Meesho" [ref=f7e5]
+        - generic [ref=f7e6]:
+          - generic [ref=f7e7]: RateGuard
+          - generic [ref=f7e8]: FM · SC v1
+      - navigation [ref=f7e9]:
+        - link "Home" [ref=f7e10] [cursor=pointer]:
+          - /url: /
+        - link "Submit rate" [ref=f7e11] [cursor=pointer]:
+          - /url: /submit
+        - link "My requests" [ref=f7e12] [cursor=pointer]:
+          - /url: /requests
+        - link "Rate lineage" [ref=f7e13] [cursor=pointer]:
+          - /url: /lineage
+        - link "Notifications" [ref=f7e14] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=f7e15]: Prototype · Data in browser
+    - generic [ref=f7e16]:
+      - banner [ref=f7e17]:
+        - generic [ref=f7e18]: My requests
+        - generic [ref=f7e20]:
+          - link "notifications" [ref=f7e21] [cursor=pointer]:
+            - /url: /notifications
+            - generic "notifications" [ref=f7e22]: 🔔
+          - combobox [ref=f7e23]:
+            - option "Ramesh Kumar · FM Cluster Head"
+            - option "Priya Menon · SC Business Team" [selected]
+            - option "Tajinder Kaur · Ops Head (FM)"
+            - option "Soumya Varma · Ops Head (SC)"
+            - option "Vidhi Sharma · BizFin"
+            - option "Ankita Agarwal · Controllership"
+            - option "Mekha Vijayakumar · Legal"
+            - option "Ops Excellence · Admin"
+            - option "Ajay Singh · Zonal Head (read-only)"
+          - generic [ref=f7e24]: PM
+      - main [ref=f7e25]:
+        - generic [ref=f7e26]:
+          - heading "My requests" [level=1] [ref=f7e27]
+          - generic [ref=f7e28]:
+            - generic [ref=f7e29]:
+              - heading "Wants something from you" [level=2] [ref=f7e30]
+              - paragraph [ref=f7e31]: Upload addendum, respond to mismatch
+            - generic [ref=f7e32]: Nothing to action.
+          - generic [ref=f7e34]:
+            - generic [ref=f7e35]:
+              - heading "In flight" [level=2] [ref=f7e36]
+              - paragraph [ref=f7e37]: Awaiting approver decision
+            - table [ref=f7e39]:
+              - rowgroup [ref=f7e40]:
+                - row [ref=f7e41]:
+                  - columnheader "ID" [ref=f7e42]
+                  - columnheader "Hub" [ref=f7e43]
+                  - columnheader "Partner" [ref=f7e44]
+                  - columnheader "Type" [ref=f7e45]
+                  - columnheader "State" [ref=f7e46]
+                  - columnheader "Evidence" [ref=f7e47]
+                  - columnheader "Submitted" [ref=f7e48]
+                  - columnheader [ref=f7e49]
+              - rowgroup [ref=f7e50]:
+                - row [ref=f7e51]:
+                  - cell "RC-SC-BLR7-202609-001" [ref=f7e52]
+                  - cell "BLR7" [ref=f7e53]
+                  - 'cell "Busybees Logistics Solutions Pvt Ltd #10059" [ref=f7e54]':
+                    - text: Busybees Logistics Solutions Pvt Ltd
+                    - generic [ref=f7e55]: "#10059"
+                  - cell "SC-01" [ref=f7e56]
+                  - cell "Pending" [ref=f7e57]
+                  - cell "Not needed" [ref=f7e59]
+                  - cell "2 days ago" [ref=f7e61]
+                  - cell [ref=f7e62]:
+                    - link "Lineage →" [ref=f7e63] [cursor=pointer]:
+                      - /url: /lineage/BLR7
+          - generic [ref=f7e64]:
+            - heading "Closed" [level=2] [ref=f7e66]
+            - table [ref=f7e68]:
+              - rowgroup [ref=f7e69]:
+                - row [ref=f7e70]:
+                  - columnheader "ID" [ref=f7e71]
+                  - columnheader "Hub" [ref=f7e72]
+                  - columnheader "Partner" [ref=f7e73]
+                  - columnheader "Type" [ref=f7e74]
+                  - columnheader "State" [ref=f7e75]
+                  - columnheader "Evidence" [ref=f7e76]
+                  - columnheader "Submitted" [ref=f7e77]
+                  - columnheader [ref=f7e78]
+              - rowgroup [ref=f7e79]:
+                - row [ref=f7e80]:
+                  - cell "RC-FM-HUB22-202607-002" [ref=f7e81]
+                  - cell "HUB22" [ref=f7e82]
+                  - 'cell "Garudaavega Logistics Private Limited #10361" [ref=f7e83]':
+                    - text: Garudaavega Logistics Private Limited
+                    - generic [ref=f7e84]: "#10361"
+                  - cell "FM-TP" [ref=f7e85]
+                  - cell "Auto-Closed" [ref=f7e86]
+                  - cell "Not needed" [ref=f7e88]
+                  - cell "3 months ago" [ref=f7e90]
+                  - cell [ref=f7e91]:
+                    - link "Lineage →" [ref=f7e92] [cursor=pointer]:
+                      - /url: /lineage/HUB22
+  - button "Open Next.js Dev Tools" [ref=f7e98] [cursor=pointer]
+  - alert [ref=f7e102]

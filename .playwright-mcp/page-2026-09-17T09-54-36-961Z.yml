@@ -1,0 +1,105 @@
+- generic [active] [ref=f31e1]:
+  - generic [ref=f31e3]:
+    - banner [ref=f31e4]:
+      - generic [ref=f31e5]:
+        - button "Open menu" [ref=f31e6]:
+          - generic [ref=f31e7]: ☰
+        - generic [ref=f31e8]: Submit rate
+      - generic [ref=f31e9]:
+        - link "notifications" [ref=f31e10] [cursor=pointer]:
+          - /url: /notifications
+          - generic "notifications" [ref=f31e11]: 🔔
+        - combobox [ref=f31e12]:
+          - option "Ramesh Kumar · FM Cluster Head"
+          - option "Priya Menon · SC Business Team" [selected]
+          - option "Tajinder Kaur · Ops Head (FM)"
+          - option "Soumya Varma · Ops Head (SC)"
+          - option "Vidhi Sharma · BizFin"
+          - option "Ankita Agarwal · Controllership"
+          - option "Mekha Vijayakumar · Legal"
+          - option "Ops Excellence · Admin"
+          - option "Ajay Singh · Zonal Head (read-only)"
+    - main [ref=f31e13]:
+      - generic [ref=f31e14]:
+        - generic [ref=f31e15]:
+          - heading "Submit rate" [level=1] [ref=f31e16]
+          - generic [ref=f31e17]: FM
+        - paragraph [ref=f31e18]: FM Cluster Head flow — Old/New slab or Touchpoint. Guardrail evaluates as you type; route is decided before you submit.
+        - generic [ref=f31e19]:
+          - generic [ref=f31e20]:
+            - generic [ref=f31e21]:
+              - generic [ref=f31e22]: "1"
+              - heading "Location" [level=2] [ref=f31e23]
+            - generic [ref=f31e25]:
+              - generic [ref=f31e26]:
+                - text: Hub
+                - generic [ref=f31e27]: (FM only)
+              - combobox [ref=f31e28]:
+                - option "Select a hub…" [selected]
+                - option "SSY · Surat SSY · Surat · Standalone"
+                - option "HUB14 · Hub 14 Whitefield · Bengaluru · Standalone"
+                - option "HUB9 · Hub 9 Koramangala · Bengaluru · Standalone"
+                - option "HUB47 · Hub 47 Mysore · Mysore · Mini Hub"
+                - option "KTA · KTA (unmapped) · Kota · Standalone"
+                - option "HUB31 · Hub 31 Whitefield · Bengaluru · Standalone"
+                - option "HUB5 · Hub 5 Pune · Pune · Mall Hub"
+                - option "HUB22 · Hub 22 Jaipur · Jaipur · Seller Led Hub"
+                - option "FMCP1 · FMCP Ahemdabad · Ahemdabad · FMCP"
+          - generic [ref=f31e29]:
+            - generic [ref=f31e30]:
+              - generic [ref=f31e31]: "2"
+              - heading "Slab structure" [level=2] [ref=f31e32]
+              - generic [ref=f31e33]: Old vs New — decided by the hub type
+            - paragraph [ref=f31e34]: Pick a hub above — the slab structure depends on the hub type.
+          - generic [ref=f31e35]:
+            - generic [ref=f31e36]:
+              - generic [ref=f31e37]: "3"
+              - heading "Tier values" [level=2] [ref=f31e38]
+              - generic [ref=f31e39]: Guardrail evaluates on every keystroke
+            - generic [ref=f31e40]:
+              - generic [ref=f31e41]: Slab
+              - generic [ref=f31e42]: Rate ₹
+              - generic [ref=f31e43]: Ceiling
+            - generic [ref=f31e44]:
+              - generic [ref=f31e45]:
+                - generic [ref=f31e46]: Tier 1 · ≤ 2500 shipments
+                - spinbutton "0.00" [ref=f31e47]
+              - generic [ref=f31e48]:
+                - generic [ref=f31e49]: Tier 2 · ≤ 5000 shipments
+                - spinbutton "0.00" [ref=f31e50]
+              - generic [ref=f31e51]:
+                - generic [ref=f31e52]: Tier 3 · ≤ 7500 shipments
+                - spinbutton "0.00" [ref=f31e53]
+              - generic [ref=f31e54]:
+                - generic [ref=f31e55]: Tier 4 · ≤ 10000 shipments
+                - spinbutton "0.00" [ref=f31e56]
+              - generic [ref=f31e57]:
+                - generic [ref=f31e58]: Tier 5 · ≤ 12500 shipments
+                - spinbutton "0.00" [ref=f31e59]
+              - generic [ref=f31e60]:
+                - generic [ref=f31e61]: Tier 6 · > 12500 shipments
+                - spinbutton "0.00" [ref=f31e62]
+          - generic [ref=f31e63]:
+            - generic [ref=f31e64]:
+              - generic [ref=f31e65]: "4"
+              - heading "Dates & remarks" [level=2] [ref=f31e66]
+            - generic [ref=f31e67]:
+              - generic [ref=f31e68]:
+                - generic [ref=f31e69]: Effective from
+                - textbox [ref=f31e70]: 2026-09-17
+              - generic [ref=f31e71]:
+                - generic [ref=f31e72]: Negotiated on
+                - textbox [ref=f31e73]: 2026-09-17
+            - generic [ref=f31e74]:
+              - generic [ref=f31e75]: Remarks approver reads this first
+              - textbox "Context, negotiation notes, why this rate…" [ref=f31e76]
+          - generic [ref=f31e77]:
+            - generic [ref=f31e78]:
+              - generic [ref=f31e79]: "5"
+              - heading "Review & submit" [level=2] [ref=f31e80]
+            - paragraph [ref=f31e81]: Complete the previous steps to see the review.
+            - generic [ref=f31e82]:
+              - button "Submit request" [disabled] [ref=f31e83]
+              - generic [ref=f31e84]: Fill in hub, hub type, all tier rates to submit.
+  - button "Open Next.js Dev Tools" [ref=f31e90] [cursor=pointer]
+  - alert [ref=f31e94]

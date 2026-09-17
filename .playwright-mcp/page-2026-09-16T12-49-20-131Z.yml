@@ -1,0 +1,67 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - complementary [ref=f6e3]:
+      - generic [ref=f6e4]:
+        - img "Meesho" [ref=f6e5]
+        - generic [ref=f6e6]:
+          - generic [ref=f6e7]: RateGuard
+          - generic [ref=f6e8]: FM · SC v1
+      - navigation [ref=f6e9]:
+        - link "Home" [ref=f6e10] [cursor=pointer]:
+          - /url: /
+        - link "Submit rate" [ref=f6e11] [cursor=pointer]:
+          - /url: /submit
+        - link "My requests" [ref=f6e12] [cursor=pointer]:
+          - /url: /requests
+        - link "Rate lineage" [ref=f6e13] [cursor=pointer]:
+          - /url: /lineage
+        - link "Notifications" [ref=f6e14] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=f6e15]: Prototype · Data in browser
+    - generic [ref=f6e16]:
+      - banner [ref=f6e17]:
+        - generic [ref=f6e18]: RateGuard
+        - generic [ref=f6e20]:
+          - link "notifications" [ref=f6e21] [cursor=pointer]:
+            - /url: /notifications
+            - generic "notifications" [ref=f6e22]: 🔔
+          - combobox [ref=f6e23]:
+            - option "Ramesh Kumar · FM Cluster Head" [selected]
+            - option "Priya Menon · SC Business Team"
+            - option "Tajinder Kaur · Ops Head (FM)"
+            - option "Soumya Varma · Ops Head (SC)"
+            - option "Vidhi Sharma · BizFin"
+            - option "Ankita Agarwal · Controllership"
+            - option "Mekha Vijayakumar · Legal"
+            - option "Ops Excellence · Admin"
+            - option "Ajay Singh · Zonal Head (read-only)"
+          - generic [ref=f6e24]: RK
+      - main [ref=f6e25]:
+        - generic [ref=f6e26]:
+          - heading "Legal handover inbox" [level=1] [ref=f6e27]
+          - paragraph [ref=f6e28]: Structured packets with a Rate Change ID for SpotDraft drafting.
+          - generic [ref=f6e29]:
+            - heading "Awaiting addendum · 1" [level=2] [ref=f6e31]
+            - list [ref=f6e32]:
+              - listitem [ref=f6e33]:
+                - generic [ref=f6e34]:
+                  - generic [ref=f6e35]: RC-FM-HUB14-202608-001
+                  - generic [ref=f6e36]: HUB14 · FM-NEW · effective 2026-08-15
+                  - generic [ref=f6e37]: Approved Aug 19, 2026 by Tajinder Kaur
+                  - generic [ref=f6e38]:
+                    - text: "Partner: Aadhyatech Express Logistics Solutions Private Limited"
+                    - generic [ref=f6e39]: "#10169"
+                - generic [ref=f6e40]:
+                  - generic [ref=f6e41]: Awaiting
+                  - link "Verify addendum →" [ref=f6e42] [cursor=pointer]:
+                    - /url: /legal/RC-FM-HUB14-202608-001
+          - generic [ref=f6e43]:
+            - heading "Recently executed" [level=2] [ref=f6e45]
+            - list [ref=f6e46]:
+              - listitem [ref=f6e47]:
+                - generic [ref=f6e48]: RC-FM-SSY-202607-001 · ADD-2026-07-045
+                - generic [ref=f6e49]:
+                  - generic [ref=f6e50]: Executed
+                  - generic [ref=f6e51]: Verified
+  - button "Open Next.js Dev Tools" [ref=f6e57] [cursor=pointer]
+  - alert [ref=f6e61]

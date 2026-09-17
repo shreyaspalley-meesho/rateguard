@@ -1,0 +1,211 @@
+- generic [active] [ref=f26e1]:
+  - generic [ref=f26e2]:
+    - complementary [ref=f26e3]:
+      - generic [ref=f26e4]:
+        - img "Meesho" [ref=f26e5]
+        - generic [ref=f26e6]:
+          - generic [ref=f26e7]: RateGuard
+          - generic [ref=f26e8]: FM · SC v1
+      - navigation [ref=f26e9]:
+        - link "Home" [ref=f26e10] [cursor=pointer]:
+          - /url: /
+        - link "Submit rate" [ref=f26e120] [cursor=pointer]:
+          - /url: /submit
+        - link "My requests" [ref=f26e121] [cursor=pointer]:
+          - /url: /requests
+        - link "Rate lineage" [ref=f26e13] [cursor=pointer]:
+          - /url: /lineage
+        - link "Notifications" [ref=f26e14] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=f26e15]: Prototype · Data in browser
+    - generic [ref=f26e16]:
+      - banner [ref=f26e17]:
+        - generic [ref=f26e18]: Submit rate
+        - generic [ref=f26e20]:
+          - link "notifications" [ref=f26e21] [cursor=pointer]:
+            - /url: /notifications
+            - generic "notifications" [ref=f26e22]: 🔔
+          - combobox [ref=f26e23]:
+            - option "Ramesh Kumar · FM Cluster Head" [selected]
+            - option "Priya Menon · SC Business Team"
+            - option "Tajinder Kaur · Ops Head (FM)"
+            - option "Soumya Varma · Ops Head (SC)"
+            - option "Vidhi Sharma · BizFin"
+            - option "Ankita Agarwal · Controllership"
+            - option "Mekha Vijayakumar · Legal"
+            - option "Ops Excellence · Admin"
+            - option "Ajay Singh · Zonal Head (read-only)"
+          - generic [ref=f26e24]: RK
+      - main [ref=f26e25]:
+        - generic [ref=f26e122]:
+          - generic [ref=f26e123]:
+            - heading "Submit rate" [level=1] [ref=f26e124]
+            - generic [ref=f26e125]: FM
+          - paragraph [ref=f26e126]: FM Cluster Head flow — Old/New slab or Touchpoint. Guardrail evaluates as you type; route is decided before you submit.
+          - generic [ref=f26e127]:
+            - generic [ref=f26e128]:
+              - generic [ref=f26e129]:
+                - generic [ref=f26e130]: "1"
+                - heading "Location" [level=2] [ref=f26e131]
+              - generic [ref=f26e132]:
+                - generic [ref=f26e133]:
+                  - generic [ref=f26e134]:
+                    - text: Hub
+                    - generic [ref=f26e135]: (FM only)
+                  - combobox [ref=f26e136]:
+                    - option "Select a hub…"
+                    - option "SSY · Surat SSY · Surat · Standalone"
+                    - option "HUB14 · Hub 14 Whitefield · Whitefield · Standalone"
+                    - option "HUB9 · Hub 9 Koramangala · Koramangala · Standalone"
+                    - option "HUB47 · Hub 47 Mysuru · Mysuru · Mini Hub" [selected]
+                    - option "KTA · KTA (unmapped) · Kota · Standalone"
+                    - option "HUB31 · Hub 31 Whitefield · Whitefield · Standalone"
+                    - option "HUB5 · Hub 5 Pune · Pune · Mall Hub"
+                    - option "HUB22 · Hub 22 Jaipur · Jaipur · Seller Led Hub"
+                    - option "FMCP1 · FMCP Ahmedabad · Ahmedabad · FMCP"
+                - generic [ref=f26e196]:
+                  - generic [ref=f26e197]: FM
+                  - generic "Hub lifecycle status (KRD §1.2.13 / §2.2.14)" [ref=f26e198]: Live · agreement executed
+              - generic [ref=f26e199]:
+                - generic [ref=f26e200]:
+                  - generic [ref=f26e201]: Oracle ID
+                  - generic [ref=f26e202]: OR62305
+                - generic [ref=f26e203]:
+                  - generic [ref=f26e204]: Owner
+                  - generic [ref=f26e205]: Neha Joshi
+                - generic [ref=f26e206]:
+                  - generic [ref=f26e207]: Hub type
+                  - generic [ref=f26e208]: Mini Hub
+                - generic [ref=f26e209]:
+                  - generic [ref=f26e210]: Zone
+                  - generic [ref=f26e211]: South
+              - generic [ref=f26e212]: "Unit: ₹/shipment · slabbed · Guardrail dimension: Hub type · Touchpoint: applicable"
+              - generic [ref=f26e137]:
+                - generic [ref=f26e138]: Transport partner (vendor)
+                - 'combobox "Search partner by name or #supplierNumber…" [ref=f26e139]'
+            - generic [ref=f26e140]:
+              - generic [ref=f26e141]:
+                - generic [ref=f26e142]: "2"
+                - heading "Slab structure" [level=2] [ref=f26e143]
+                - generic [ref=f26e144]: Old vs New — decided by the hub type
+              - generic [ref=f26e213]:
+                - button "Old rate card FM-OLD 5 tiers · 5,000-shipment width · ₹/shipment T1. < 5,000 T2. 5,000–10,000 T3. 10,000–15,000 T4. 15,000–20,000 T5. > 20,000" [ref=f26e310]:
+                  - generic [ref=f26e311]:
+                    - generic [ref=f26e312]: Old rate card
+                    - generic [ref=f26e313]: FM-OLD
+                  - generic [ref=f26e314]: 5 tiers · 5,000-shipment width · ₹/shipment
+                  - generic [ref=f26e315]:
+                    - generic [ref=f26e316]: T1. < 5,000
+                    - generic [ref=f26e317]: T2. 5,000–10,000
+                    - generic [ref=f26e318]: T3. 10,000–15,000
+                    - generic [ref=f26e319]: T4. 15,000–20,000
+                    - generic [ref=f26e320]: T5. > 20,000
+                - button "New rate card FM-NEW 6 tiers · 2,500-shipment width · ₹/shipment T1. < 2,500 T2. 2,500–5,000 T3. 5,000–7,500 T4. 7,500–10,000 T5. 10,000–12,500 T6. > 12,500" [ref=f26e321]:
+                  - generic [ref=f26e322]:
+                    - generic [ref=f26e323]: New rate card
+                    - generic [ref=f26e324]: FM-NEW
+                  - generic [ref=f26e325]: 6 tiers · 2,500-shipment width · ₹/shipment
+                  - generic [ref=f26e326]:
+                    - generic [ref=f26e327]: T1. < 2,500
+                    - generic [ref=f26e328]: T2. 2,500–5,000
+                    - generic [ref=f26e329]: T3. 5,000–7,500
+                    - generic [ref=f26e330]: T4. 7,500–10,000
+                    - generic [ref=f26e331]: T5. 10,000–12,500
+                    - generic [ref=f26e332]: T6. > 12,500
+            - generic [ref=f26e146]:
+              - generic [ref=f26e147]:
+                - generic [ref=f26e148]: "3"
+                - heading "Tier values" [level=2] [ref=f26e333]
+                - generic [ref=f26e150]: Guardrail evaluates on every keystroke
+              - generic [ref=f26e334]:
+                - generic [ref=f26e335]: Slab
+                - generic [ref=f26e336]: Rate ₹
+                - generic [ref=f26e337]: Ceiling (v12)
+              - generic [ref=f26e338]:
+                - generic [ref=f26e339]:
+                  - generic [ref=f26e340]: Tier 1 · ≤ 2500 shipments
+                  - spinbutton "0.00" [ref=f26e341]
+                  - generic [ref=f26e342]: ₹55.00
+                - generic [ref=f26e344]:
+                  - generic [ref=f26e345]: Tier 2 · ≤ 5000 shipments
+                  - spinbutton "0.00" [ref=f26e346]
+                  - generic [ref=f26e347]: ₹52.00
+                - generic [ref=f26e349]:
+                  - generic [ref=f26e350]: Tier 3 · ≤ 7500 shipments
+                  - spinbutton "0.00" [ref=f26e351]
+                  - generic [ref=f26e352]: ₹50.00
+                - generic [ref=f26e354]:
+                  - generic [ref=f26e355]: Tier 4 · ≤ 10000 shipments
+                  - spinbutton "0.00" [ref=f26e356]
+                  - generic [ref=f26e357]: ₹48.00
+                - generic [ref=f26e359]:
+                  - generic [ref=f26e360]: Tier 5 · ≤ 12500 shipments
+                  - spinbutton "0.00" [ref=f26e361]
+                  - generic [ref=f26e362]: ₹46.00
+                - generic [ref=f26e364]:
+                  - generic [ref=f26e365]: Tier 6 · > 12500 shipments
+                  - spinbutton "0.00" [ref=f26e366]
+                  - generic [ref=f26e367]: ₹44.00
+              - generic [ref=f26e370]:
+                - generic [ref=f26e371]: Within band → Ops Head (FM)
+                - generic [ref=f26e372]:
+                  - text: "Guardrail v12 · Route on submit:"
+                  - strong [ref=f26e373]: OpsHead-FM
+            - generic [ref=f26e174]:
+              - generic [ref=f26e175]:
+                - generic [ref=f26e176]: "4"
+                - heading "Dates & remarks" [level=2] [ref=f26e177]
+              - generic [ref=f26e178]:
+                - generic [ref=f26e179]:
+                  - generic [ref=f26e180]: Effective from
+                  - textbox [ref=f26e181]: 2026-09-16
+                - generic [ref=f26e182]:
+                  - generic [ref=f26e183]: Negotiated on
+                  - textbox [ref=f26e184]: 2026-09-16
+              - generic [ref=f26e185]:
+                - generic [ref=f26e186]: Remarks approver reads this first
+                - textbox "Context, negotiation notes, why this rate…" [ref=f26e187]
+              - generic [ref=f26e374]:
+                - generic [ref=f26e375]: Touchpoint (optional)
+                - generic [ref=f26e377]:
+                  - generic [ref=f26e378]: Touchpoint rate (₹/shipment) optional
+                  - spinbutton "e.g. 3.50" [ref=f26e379]
+                  - generic [ref=f26e380]: Per unique supplier an FE visits per day
+            - generic [ref=f26e188]:
+              - generic [ref=f26e189]:
+                - generic [ref=f26e190]: "5"
+                - heading "Review & submit" [level=2] [ref=f26e191]
+              - generic [ref=f26e261]:
+                - generic [ref=f26e262]:
+                  - generic [ref=f26e263]: Hub
+                  - generic [ref=f26e264]: HUB47 · Hub 47 Mysuru
+                - generic [ref=f26e265]:
+                  - generic [ref=f26e266]: Oracle ID
+                  - generic [ref=f26e267]: OR62305
+                - generic [ref=f26e268]:
+                  - generic [ref=f26e269]: Change type
+                  - generic [ref=f26e270]: FM-NEW
+                - generic [ref=f26e271]:
+                  - generic [ref=f26e272]: Unit
+                  - generic [ref=f26e273]: ₹/shipment (slabbed)
+                - generic [ref=f26e274]:
+                  - generic [ref=f26e275]: Structure
+                  - generic [ref=f26e276]: New · 6 tiers
+                - generic [ref=f26e277]:
+                  - generic [ref=f26e278]: Effective from
+                  - generic [ref=f26e279]: 2026-09-16
+                - generic [ref=f26e280]:
+                  - generic [ref=f26e281]: Negotiated
+                  - generic [ref=f26e282]: 2026-09-16
+                - generic [ref=f26e283]:
+                  - generic [ref=f26e284]: Guardrail
+                  - generic [ref=f26e285]: v12 · within
+              - generic [ref=f26e286]:
+                - text: "On submit: routed to"
+                - strong [ref=f26e287]: OpsHead-FM
+                - text: · TTL 14 days · Rate stays Draft-equivalent until the approver decides.
+              - generic [ref=f26e193]:
+                - button "Submit request" [disabled] [ref=f26e194]
+                - generic [ref=f26e195]: Fill in all tier rates to submit.
+  - button "Open Next.js Dev Tools" [ref=f26e105] [cursor=pointer]
+  - alert [ref=f26e119]
