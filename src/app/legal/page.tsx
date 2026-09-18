@@ -2,25 +2,25 @@
 
 import { useMemo } from 'react';
 import { useApp } from '@/lib/store';
-import { StateChip, EvidenceChip } from '@/components/Chip';
+import { StateChip } from '@/components/Chip';
 import Link from 'next/link';
 import { format } from 'date-fns';
 
 export default function LegalInbox() {
   const allRequests = useApp(s => s.requests);
   const vendors = useApp(s => s.vendors);
-  const reqs = useMemo(() => allRequests.filter(r => r.state === 'Approved' && r.evidence === 'Awaiting'), [allRequests]);
+  const reqs = useMemo(() => allRequests.filter(r => r.state === 'Approved'), [allRequests]);
   const executed = useMemo(() => allRequests.filter(r => r.state === 'Executed').slice(0, 10), [allRequests]);
   const vendorMap = useMemo(() => new Map(vendors.map(v => [v.supplierNumber, v])), [vendors]);
 
   return (
     <div className="max-w-5xl">
       <h1 className="text-2xl font-bold mb-2">Legal handover inbox</h1>
-      <p className="text-sm text-black/60 mb-6">Structured packets with a Rate Change ID for SpotDraft drafting.</p>
+      <p className="text-sm text-black/60 mb-6">Approved rate cards waiting for a SpotDraft agreement.</p>
 
       <section className="card mb-6">
         <div className="p-4 border-b border-black/8">
-          <h2 className="font-semibold text-sm">Awaiting addendum · {reqs.length}</h2>
+          <h2 className="font-semibold text-sm">Awaiting agreement · {reqs.length}</h2>
         </div>
         {reqs.length === 0 ? (
           <div className="p-8 text-center text-black/50 text-sm">Nothing to draft.</div>
@@ -37,8 +37,7 @@ export default function LegalInbox() {
                   )}
                 </div>
                 <div className="flex gap-3 items-center">
-                  <EvidenceChip evidence={r.evidence} />
-                  <Link href={`/legal/${r.id}`} className="btn btn-primary text-xs">Verify addendum →</Link>
+                  <Link href={`/legal/${r.id}`} className="btn btn-primary text-xs">Attach agreement →</Link>
                 </div>
               </li>
             ))}
@@ -52,7 +51,7 @@ export default function LegalInbox() {
           {executed.map(r => (
             <li key={r.id} className="p-3 flex items-center justify-between">
               <div className="mono text-[11.5px]">{r.id} · {r.addendumId ?? '—'}</div>
-              <div className="flex gap-2"><StateChip state={r.state} /><EvidenceChip evidence={r.evidence} /></div>
+              <StateChip state={r.state} />
             </li>
           ))}
         </ul>

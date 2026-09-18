@@ -4,7 +4,7 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type {
   Hub, GuardrailVersion, RateRequest, Notification, DraftRequest,
-  DelegationRow, PersonaId, Vendor,
+  DelegationRow, PersonaId, Vendor, SavedDraft,
 } from './types';
 import { SEED_HUBS, SEED_GUARDRAILS, SEED_REQUESTS, SEED_DELEGATIONS, SEED_VENDORS } from './seed';
 import { evaluate, buildRequestId, nextSeq } from './guardrail';
@@ -18,15 +18,18 @@ interface AppState {
   notifications: Notification[];
   delegations: DelegationRow[];
   vendors: Vendor[];
+  drafts: SavedDraft[];
   clockOffsetDays: number;
 
   setPersona(id: PersonaId): void;
   submitRequest(draft: DraftRequest): RateRequest;
+  saveDraft(draft: DraftRequest, id?: string): SavedDraft;
+  discardDraft(id: string): void;
   revise(id: string, draft: DraftRequest, reason?: string): RateRequest;
   withdraw(id: string, reason: string): void;
   approve(id: string, actor: string, role: string, reason?: string): void;
   reject(id: string, actor: string, reason: string): void;
-  uploadAddendum(id: string, agreementUrl: string, verification: 'Verified' | 'Mismatch'): void;
+  uploadAddendum(id: string, agreementUrl: string, verification?: 'Verified' | 'Mismatch', addendumId?: string): void;
   override(id: string, actor: string, reason: string): void;
   publishGuardrail(v: GuardrailVersion): void;
   advanceClock(days: number): void;
@@ -59,9 +62,37 @@ export const useApp = create<AppState>()(
       notifications: [],
       delegations: SEED_DELEGATIONS,
       vendors: SEED_VENDORS,
+      drafts: [],
       clockOffsetDays: 0,
 
       setPersona: (id) => set({ currentPersona: id }),
+
+      saveDraft: (draft, existingId) => {
+        const state = get();
+        const persona = personaById(state.currentPersona);
+        const nowIso = now();
+        if (existingId) {
+          const found = state.drafts.find(d => d.id === existingId);
+          if (found) {
+            const updated: SavedDraft = { ...found, ...draft, updatedAt: nowIso };
+            set({ drafts: state.drafts.map(d => d.id === existingId ? updated : d) });
+            return updated;
+          }
+        }
+        const created: SavedDraft = {
+          ...draft,
+          id: `DRAFT-${rid().toUpperCase()}`,
+          createdAt: nowIso,
+          updatedAt: nowIso,
+          submittedBy: persona.name,
+        };
+        set({ drafts: [created, ...state.drafts] });
+        return created;
+      },
+
+      discardDraft: (id) => {
+        set({ drafts: get().drafts.filter(d => d.id !== id) });
+      },
 
       submitRequest: (draft) => {
         const state = get();
@@ -196,16 +227,16 @@ export const useApp = create<AppState>()(
         set({ requests: reqs, notifications: notes });
       },
 
-      uploadAddendum: (id, agreementUrl, verification) => {
+      // Legal attaches the SpotDraft link (and optionally a specific Addendum ID) —
+      // the request is marked Executed. Verification/mismatch axis is no longer surfaced.
+      uploadAddendum: (id, agreementUrl, _verification, addendumIdOverride) => {
+        void _verification;
         const state = get();
         const reqs = state.requests.map(r => {
           if (r.id !== id) return r;
-          const addendumId = r.addendumId ?? `ADD-${new Date().getFullYear()}-${rid().slice(0, 5).toUpperCase()}`;
-          const events = [...r.events, { at: now(), actor: 'Legal', kind: verification === 'Verified' ? 'Verified' : 'Mismatch', note: verification === 'Verified' ? 'All fields matched' : 'Field mismatch — submitter must override' }];
-          if (verification === 'Verified') {
-            return { ...r, state: 'Executed' as const, evidence: 'Verified' as const, addendumId, agreementUrl, events };
-          }
-          return { ...r, evidence: 'Mismatch' as const, addendumId, agreementUrl, events };
+          const addendumId = addendumIdOverride || r.addendumId || `ADD-${new Date().getFullYear()}-${rid().slice(0, 5).toUpperCase()}`;
+          const events = [...r.events, { at: now(), actor: 'Legal', kind: 'AgreementAttached', note: `SpotDraft link stamped; addendum ${addendumId}` }];
+          return { ...r, state: 'Executed' as const, evidence: 'Verified' as const, addendumId, agreementUrl, events };
         });
         set({ requests: reqs });
       },
@@ -248,7 +279,7 @@ export const useApp = create<AppState>()(
       reseed: () => {
         set({
           hubs: SEED_HUBS, guardrails: SEED_GUARDRAILS, requests: SEED_REQUESTS,
-          notifications: [], delegations: SEED_DELEGATIONS, vendors: SEED_VENDORS, clockOffsetDays: 0,
+          notifications: [], delegations: SEED_DELEGATIONS, vendors: SEED_VENDORS, drafts: [], clockOffsetDays: 0,
         });
       },
 
@@ -258,8 +289,9 @@ export const useApp = create<AppState>()(
     }),
     {
       name: 'rateguard-store',
-      version: 2,
+      version: 3,
       // v1 → v2: backfill `revision` and `revisions` on any persisted requests (FR-23).
+      // v2 → v3: seed the drafts array so older sessions can save/discard drafts.
       migrate: (persisted, fromVersion) => {
         const p = persisted as Partial<AppState> | undefined;
         if (!p) return p as unknown as AppState;
@@ -269,6 +301,9 @@ export const useApp = create<AppState>()(
             revision: (r as RateRequest).revision ?? 1,
             revisions: (r as RateRequest).revisions ?? [],
           }));
+        }
+        if (fromVersion < 3 && !Array.isArray(p.drafts)) {
+          p.drafts = [];
         }
         return p as AppState;
       },

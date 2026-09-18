@@ -2,12 +2,12 @@
 
 export const dynamic = 'force-dynamic';
 
-import { Suspense, useEffect, useMemo, useState } from 'react';
+import { Suspense, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useApp, useCurrentGuardrail } from '@/lib/store';
 import { evaluate, abnormalCheck, computeAbnormal } from '@/lib/guardrail';
-import type { ChangeType, Tier, Hub, HubType, Vendor, PersonaId, Incentive, ScSubType, RateRequest } from '@/lib/types';
+import type { ChangeType, Tier, Hub, HubType, Vendor, PersonaId, Incentive, ScSubType, RateRequest, DraftRequest } from '@/lib/types';
 import { validateScTypes, getSlabOptions, isTouchpointApplicable } from '@/lib/hub-rules';
 import { taxonomyFor } from '@/lib/hub-taxonomy';
 import { useIsMobile } from '@/lib/useMediaQuery';
@@ -69,19 +69,29 @@ function scUnitFor(subTypes: ScSubType[]): 'shipment' | 'bag' {
 
 // ------------- Shared form-state hook -------------
 
-function useSubmitForm(variant: Variant, reviseId?: string) {
+function useSubmitForm(variant: Variant, reviseId?: string, draftId?: string) {
   const allHubs = useApp(s => s.hubs);
   const requests = useApp(s => s.requests);
   const vendors = useApp(s => s.vendors);
   const gv = useCurrentGuardrail();
   const submit = useApp(s => s.submitRequest);
   const revise = useApp(s => s.revise);
+  const saveDraftAction = useApp(s => s.saveDraft);
+  const discardDraftAction = useApp(s => s.discardDraft);
+  const drafts = useApp(s => s.drafts);
   const currentPersona = useApp(s => s.currentPersona);
   const router = useRouter();
   const reviseOriginal = useMemo(
     () => (reviseId ? requests.find(r => r.id === reviseId) : undefined),
     [reviseId, requests],
   );
+  const draftOriginal = useMemo(
+    () => (draftId ? drafts.find(d => d.id === draftId) : undefined),
+    [draftId, drafts],
+  );
+
+  // Local mirror of the current draft id — starts from ?draft=<id>, updated after first save.
+  const [activeDraftId, setActiveDraftId] = useState<string | undefined>(draftId);
 
   const hubs = useMemo(
     () => allHubs.filter(h => h.active && h.segment === variant),
@@ -158,8 +168,58 @@ function useSubmitForm(variant: Variant, reviseId?: string) {
     setPrefilled(reviseOriginal.id);
   }, [reviseOriginal, prefilled, vendors]);
 
-  // If persona changes mid-flow (variant changes), reset all state.
+  // Prefill from `?draft=<id>` — populate once when the target saved draft loads.
+  const [draftPrefilled, setDraftPrefilled] = useState<string | undefined>(undefined);
   useEffect(() => {
+    if (!draftOriginal || draftPrefilled === draftOriginal.id) return;
+    setHubCode(draftOriginal.hubCode);
+    setSelectedHubType(draftOriginal.submittedHubType);
+    setChangeType(draftOriginal.changeType);
+    setTiers(draftOriginal.tiers.length ? draftOriginal.tiers : tiersFor(draftOriginal.changeType));
+    setEffectiveFrom(draftOriginal.effectiveFrom);
+    setNegotiatedOn(draftOriginal.negotiatedOn);
+    setRemarks(draftOriginal.remarks);
+    if (draftOriginal.vendorSupplierNumber) {
+      const v = vendors.find(x => x.supplierNumber === draftOriginal.vendorSupplierNumber);
+      if (v) setVendorInput(`${v.name} #${v.supplierNumber}`);
+    }
+    if (draftOriginal.clause) {
+      const c = draftOriginal.clause;
+      if (c.mg !== undefined) setMg(String(c.mg));
+      if (c.mgTrigger) setMgTrigger(c.mgTrigger);
+      if (c.lockInMonths !== undefined) setLockIn(String(c.lockInMonths));
+      if (c.noticePeriodMonths !== undefined) setNoticePeriod(String(c.noticePeriodMonths));
+      if (c.crossDockBagRate !== undefined) setCrossDockBagRate(String(c.crossDockBagRate));
+      if (c.touchpointRate !== undefined) setTouchpointRate(String(c.touchpointRate));
+      if (c.fwdRate !== undefined) setFwdRate(String(c.fwdRate));
+      if (c.revRate !== undefined) setRevRate(String(c.revRate));
+      if (c.bagRate !== undefined) setBagRate(String(c.bagRate));
+    }
+    if (draftOriginal.incentive) {
+      setIncentiveOn(true);
+      setIncIncremental(String(draftOriginal.incentive.incremental));
+      setIncPeriod(draftOriginal.incentive.period);
+      setIncStart(draftOriginal.incentive.start);
+      setIncEnd(draftOriginal.incentive.end);
+    }
+    if (draftOriginal.scSubTypes?.length) {
+      setScSubTypes(draftOriginal.scSubTypes);
+    }
+    if (draftOriginal.abnormalReasons) {
+      setAbnormalReasons(draftOriginal.abnormalReasons);
+    }
+    setDraftPrefilled(draftOriginal.id);
+  }, [draftOriginal, draftPrefilled, vendors]);
+
+  // If persona changes mid-flow (variant changes), reset all state.
+  // Compare against a ref of the previous value — a boolean "first run" flag gets consumed
+  // by React 19 strict-mode's double-invoke and would erase draft/revise prefills.
+  const prevVariantRef = useRef(variant);
+  const prevPersonaRef = useRef(currentPersona);
+  useEffect(() => {
+    if (prevVariantRef.current === variant && prevPersonaRef.current === currentPersona) return;
+    prevVariantRef.current = variant;
+    prevPersonaRef.current = currentPersona;
     setHubCode('');
     setSelectedHubType(undefined);
     setChangeType(defaultChangeType(variant));
@@ -173,16 +233,20 @@ function useSubmitForm(variant: Variant, reviseId?: string) {
 
   // Pre-select the mapping's hub type as a hint whenever a new FM hub is picked.
   // The user must still actively confirm/change it (KRD §II.3.6).
-  // In revise mode the prefill effect owns hub-type — don't clobber it here.
+  // In revise/draft-edit mode the prefill effects own hub-type — don't clobber them.
   useEffect(() => {
     if (variant !== 'FM') return;
     if (reviseId && prefilled === reviseId) return;
+    if (draftId && draftPrefilled === draftId) return;
     setSelectedHubType(hub?.hubType);
-  }, [hub, variant, reviseId, prefilled]);
+  }, [hub, variant, reviseId, prefilled, draftId, draftPrefilled]);
 
   // When the *selected* hub type is FMCP, force FM-FMCP; snap back otherwise.
+  // Suppress during draft/revise prefill so we don't wipe restored tiers.
   useEffect(() => {
     if (variant !== 'FM' || !hub) return;
+    if (reviseId && prefilled === reviseId) return;
+    if (draftId && draftPrefilled === draftId) return;
     if (selectedHubType === 'FMCP' && changeType !== 'FM-FMCP') {
       setChangeType('FM-FMCP');
       setTiers([]);
@@ -190,28 +254,31 @@ function useSubmitForm(variant: Variant, reviseId?: string) {
       setChangeType('FM-NEW');
       setTiers(tiersFor('FM-NEW'));
     }
-  }, [hub, variant, changeType, selectedHubType]);
+  }, [hub, variant, changeType, selectedHubType, reviseId, prefilled, draftId, draftPrefilled]);
 
   // Preload scSubTypes from the selected hub for SC variant.
+  // Skip when draft-editing so we don't overwrite the saved sub-type selection.
   useEffect(() => {
     if (variant !== 'SC' || !hub) return;
+    if (draftId && draftPrefilled === draftId) return;
     if (hub.scSubTypes && hub.scSubTypes.length && scSubTypes.length === 0) {
       setScSubTypes(hub.scSubTypes);
     }
-  }, [hub, variant, scSubTypes.length]);
+  }, [hub, variant, scSubTypes.length, draftId, draftPrefilled]);
 
   // KRD §2.0/§2.1 — SC change type is derived from the picked sub-types.
   // Only CD → SC-CD (flat ₹/bag). Anything with FMSC/LMSC/GW → SC-SLAB (vendor-defined slabs).
   useEffect(() => {
     if (variant !== 'SC') return;
     if (reviseId && prefilled === reviseId) return; // revise mode owns changeType
+    if (draftId && draftPrefilled === draftId) return; // draft-edit also owns it
     if (scSubTypes.length === 0) return;
     const derived = scChangeTypeFor(scSubTypes);
     if (derived !== changeType) {
       setChangeType(derived);
       setTiers(tiersFor(derived));
     }
-  }, [variant, scSubTypes, changeType, reviseId, prefilled]);
+  }, [variant, scSubTypes, changeType, reviseId, prefilled, draftId, draftPrefilled]);
 
   const scValidation = useMemo(() => variant === 'SC' ? validateScTypes(scSubTypes) : { ok: true } as const, [variant, scSubTypes]);
 
@@ -305,8 +372,9 @@ function useSubmitForm(variant: Variant, reviseId?: string) {
     setTiers(tiersFor(ct));
   }
 
-  function handleSubmit() {
-    if (!hub || !canSubmit) return;
+  // Build the DraftRequest payload from current form state. Called by both
+  // `handleSubmit` and `handleSaveDraft` so they agree on shape.
+  function buildDraftPayload(hubCode: string): DraftRequest {
     const clause = variant === 'SC'
       ? (mg || mgTrigger || lockIn || noticePeriod || (showCrossDockBag && crossDockBagRate)
         ? {
@@ -319,9 +387,9 @@ function useSubmitForm(variant: Variant, reviseId?: string) {
         : undefined)
       : isFmcp
         ? {
-            fwdRate: Number(fwdRate),
-            revRate: Number(revRate),
-            bagRate: Number(bagRate),
+            fwdRate: fwdRate ? Number(fwdRate) : undefined,
+            revRate: revRate ? Number(revRate) : undefined,
+            bagRate: bagRate ? Number(bagRate) : undefined,
           }
         : (touchpointRate
           ? {
@@ -330,7 +398,7 @@ function useSubmitForm(variant: Variant, reviseId?: string) {
             }
           : undefined);
 
-    const incentive: Incentive | undefined = variant === 'SC' && incentiveOn
+    const incentive: Incentive | undefined = variant === 'SC' && incentiveOn && incIncremental && incStart && incEnd
       ? {
           base: tiers[0]?.rate ?? 0,
           incremental: Number(incIncremental),
@@ -340,8 +408,8 @@ function useSubmitForm(variant: Variant, reviseId?: string) {
         }
       : undefined;
 
-    const draft = {
-      hubCode: hub.code,
+    return {
+      hubCode,
       submittedHubType: variant === 'FM' ? selectedHubType : undefined,
       changeType, tiers,
       effectiveFrom, negotiatedOn,
@@ -349,12 +417,36 @@ function useSubmitForm(variant: Variant, reviseId?: string) {
       clause,
       incentive,
       remarks,
+      scSubTypes: variant === 'SC' ? scSubTypes : undefined,
       abnormalReasons: Object.keys(abnormalReasons).length ? abnormalReasons : undefined,
     };
+  }
+
+  function handleSubmit() {
+    if (!hub || !canSubmit) return;
+    const draft = buildDraftPayload(hub.code);
     const req = reviseId
       ? revise(reviseId, draft, remarks)
       : submit(draft);
+    // Submitting from a saved draft consumes it — the request supersedes the draft.
+    if (activeDraftId) discardDraftAction(activeDraftId);
     router.push(`/requests?justSubmitted=${req.id}`);
+  }
+
+  // Save-as-draft only needs a hub — everything else can be partial.
+  const canSaveDraft = !!hub && !reviseId;
+
+  function handleSaveDraft() {
+    if (!hub) return;
+    const draft = buildDraftPayload(hub.code);
+    const saved = saveDraftAction(draft, activeDraftId);
+    setActiveDraftId(saved.id);
+    router.push(`/requests?draftSaved=${saved.id}`);
+  }
+
+  function handleDiscardDraft() {
+    if (activeDraftId) discardDraftAction(activeDraftId);
+    router.push('/requests');
   }
 
   return {
@@ -388,6 +480,8 @@ function useSubmitForm(variant: Variant, reviseId?: string) {
     blocked, missing, canSubmit, handleSubmit,
     // revise mode
     reviseId, reviseOriginal,
+    // draft mode
+    activeDraftId, draftOriginal, canSaveDraft, handleSaveDraft, handleDiscardDraft,
     // review-only extras
     previousExecuted,
   };
@@ -409,14 +503,15 @@ function SubmitInner() {
   const persona = useApp(s => s.currentPersona);
   const search = useSearchParams();
   const reviseId = search?.get('revise') ?? undefined;
-  if (persona === 'fm-cluster') return <VariantSubmit variant="FM" reviseId={reviseId} />;
-  if (persona === 'sc-biz') return <VariantSubmit variant="SC" reviseId={reviseId} />;
+  const draftId = search?.get('draft') ?? undefined;
+  if (persona === 'fm-cluster') return <VariantSubmit variant="FM" reviseId={reviseId} draftId={draftId} />;
+  if (persona === 'sc-biz') return <VariantSubmit variant="SC" reviseId={reviseId} draftId={draftId} />;
   return <NoSubmitAccess persona={persona} />;
 }
 
-function VariantSubmit({ variant, reviseId }: { variant: Variant; reviseId?: string }) {
+function VariantSubmit({ variant, reviseId, draftId }: { variant: Variant; reviseId?: string; draftId?: string }) {
   const isMobile = useIsMobile();
-  const form = useSubmitForm(variant, reviseId);
+  const form = useSubmitForm(variant, reviseId, draftId);
   return isMobile ? <SubmitMobile form={form} /> : <SubmitDesktop form={form} />;
 }
 
@@ -500,6 +595,16 @@ function SubmitHeader({ form }: { form: FormApi }) {
           </div>
         </div>
       )}
+      {form.draftOriginal && !form.reviseId && (
+        <div className="banner banner-amber mb-4" data-testid="editing-draft-banner">
+          <div>
+            <div className="font-semibold">Editing saved draft · {form.draftOriginal.id}</div>
+            <div className="text-xs mt-1 opacity-80">
+              Not submitted yet. Update the draft, submit it for approval, or discard it.
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 }
@@ -562,14 +667,7 @@ function SubmitDesktopFm({ form }: { form: FormApi }) {
         <SectionHeader n="5" title="Review & submit" />
         <ReviewBlock hub={hub} selectedHubType={form.selectedHubType} verdict={verdict} changeType={changeType} effectiveFrom={effectiveFrom} negotiatedOn={negotiatedOn} vendor={selectedVendor} variant={variant} touchpointRate={form.touchpointRate} tierCount={tiers.length} tiers={tiers} previousExecuted={form.previousExecuted} scSubTypes={form.scSubTypes} scUnit={form.scUnit} mg={form.mg} lockIn={form.lockIn} noticePeriod={form.noticePeriod} showCrossDockBag={form.showCrossDockBag} crossDockBagRate={form.crossDockBagRate} incentiveOn={form.incentiveOn} incIncremental={form.incIncremental} incPeriod={form.incPeriod} incStart={form.incStart} incEnd={form.incEnd} />
         {blocked && <div className="banner banner-red mb-4">{blocked}</div>}
-        <div className="flex items-center gap-3">
-          <button type="button" className="btn btn-primary" disabled={!canSubmit} onClick={handleSubmit}>
-            Submit request
-          </button>
-          {!canSubmit && !blocked && (
-            <span className="text-xs text-black/50">Fill in {missing.join(', ')} to submit.</span>
-          )}
-        </div>
+        <DraftActions form={form} canSubmit={canSubmit} blocked={blocked} missing={missing} onSubmit={handleSubmit} />
       </section>
     </div>
   );
@@ -645,14 +743,7 @@ function SubmitDesktopSc({ form }: { form: FormApi }) {
         <ReviewBlock hub={hub} selectedHubType={form.selectedHubType} verdict={verdict} changeType={changeType} effectiveFrom={effectiveFrom} negotiatedOn={negotiatedOn} vendor={selectedVendor} variant={variant} touchpointRate={form.touchpointRate} tierCount={tiers.length} tiers={tiers} previousExecuted={form.previousExecuted} scSubTypes={form.scSubTypes} scUnit={form.scUnit} mg={form.mg} lockIn={form.lockIn} noticePeriod={form.noticePeriod} showCrossDockBag={form.showCrossDockBag} crossDockBagRate={form.crossDockBagRate} incentiveOn={form.incentiveOn} incIncremental={form.incIncremental} incPeriod={form.incPeriod} incStart={form.incStart} incEnd={form.incEnd} />
         <ScRouteCard />
         {blocked && <div className="banner banner-red mb-4">{blocked}</div>}
-        <div className="flex items-center gap-3">
-          <button type="button" className="btn btn-primary" disabled={!canSubmit} onClick={handleSubmit} data-testid="sc-submit-btn">
-            Submit request
-          </button>
-          {!canSubmit && !blocked && (
-            <span className="text-xs text-black/50">Fill in {missing.join(', ')} to submit.</span>
-          )}
-        </div>
+        <DraftActions form={form} canSubmit={canSubmit} blocked={blocked} missing={missing} onSubmit={handleSubmit} submitTestId="sc-submit-btn" />
       </section>
     </div>
   );
@@ -771,7 +862,7 @@ function SubmitMobileFm({ form }: { form: FormApi }) {
         )}
       </div>
 
-      <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-black/8 p-4 z-40">
+      <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-black/8 p-4 z-40 space-y-2">
         <button
           type="button"
           className="btn btn-primary w-full justify-center py-3 text-[15px]"
@@ -783,6 +874,7 @@ function SubmitMobileFm({ form }: { form: FormApi }) {
         >
           {step < totalSteps ? 'Continue' : 'Submit request'}
         </button>
+        <MobileDraftBar form={form} />
       </div>
     </div>
   );
@@ -903,7 +995,7 @@ function SubmitMobileSc({ form }: { form: FormApi }) {
         )}
       </div>
 
-      <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-black/8 p-4 z-40">
+      <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-black/8 p-4 z-40 space-y-2">
         <button
           type="button"
           className="btn btn-primary w-full justify-center py-3 text-[15px]"
@@ -916,12 +1008,74 @@ function SubmitMobileSc({ form }: { form: FormApi }) {
         >
           {step < totalSteps ? 'Continue' : 'Submit request'}
         </button>
+        <MobileDraftBar form={form} />
       </div>
     </div>
   );
 }
 
 // ------------- Shared sub-components -------------
+
+function DraftActions({ form, canSubmit, blocked, missing, onSubmit, submitTestId }: {
+  form: FormApi; canSubmit: boolean; blocked: string | null; missing: string[]; onSubmit: () => void; submitTestId?: string;
+}) {
+  const { canSaveDraft, handleSaveDraft, handleDiscardDraft, activeDraftId, reviseId } = form;
+  return (
+    <div className="flex flex-wrap items-center gap-3">
+      <button type="button" className="btn btn-primary" disabled={!canSubmit} onClick={onSubmit} data-testid={submitTestId}>
+        {reviseId ? 'Submit revision' : 'Submit request'}
+      </button>
+      {!reviseId && (
+        <button
+          type="button"
+          className="btn btn-ghost"
+          disabled={!canSaveDraft}
+          onClick={handleSaveDraft}
+          data-testid="save-draft-btn"
+          title={canSaveDraft ? 'Save what you have so far — you can come back to finish it later.' : 'Pick a hub before saving a draft.'}
+        >
+          {activeDraftId ? 'Update draft' : 'Save as draft'}
+        </button>
+      )}
+      {activeDraftId && (
+        <button type="button" className="btn btn-ghost text-[#B00020]" onClick={handleDiscardDraft} data-testid="discard-draft-btn">
+          Discard draft
+        </button>
+      )}
+      {!canSubmit && !blocked && (
+        <span className="text-xs text-black/50">Fill in {missing.join(', ')} to submit.</span>
+      )}
+    </div>
+  );
+}
+
+function MobileDraftBar({ form }: { form: FormApi }) {
+  const { canSaveDraft, handleSaveDraft, handleDiscardDraft, activeDraftId, reviseId } = form;
+  if (reviseId) return null;
+  return (
+    <div className="flex gap-2">
+      <button
+        type="button"
+        className="flex-1 btn btn-ghost !py-2.5 text-[13px] justify-center"
+        disabled={!canSaveDraft}
+        onClick={handleSaveDraft}
+        data-testid="save-draft-btn-mobile"
+      >
+        {activeDraftId ? 'Update draft' : 'Save as draft'}
+      </button>
+      {activeDraftId && (
+        <button
+          type="button"
+          className="flex-1 btn btn-ghost !py-2.5 text-[13px] justify-center text-[#B00020]"
+          onClick={handleDiscardDraft}
+          data-testid="discard-draft-btn-mobile"
+        >
+          Discard
+        </button>
+      )}
+    </div>
+  );
+}
 
 function LocationFields({ hubs, hub, hubCode, setHubCode, vendors, vendorInput, setVendorInput, selectedVendor, variant, selectedHubType }: {
   hubs: Hub[]; hub: Hub | undefined; hubCode: string; setHubCode: (v: string) => void;

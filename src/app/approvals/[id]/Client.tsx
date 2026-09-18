@@ -2,7 +2,7 @@
 
 import { useApp, useCurrentGuardrail } from '@/lib/store';
 import { personaById } from '@/lib/personas';
-import { StateChip, EvidenceChip, Chip } from '@/components/Chip';
+import { StateChip, Chip } from '@/components/Chip';
 import { evaluate } from '@/lib/guardrail';
 import { format } from 'date-fns';
 import Link from 'next/link';
@@ -37,7 +37,7 @@ export default function DecisionClient({ id }: { id: string }) {
 
       <div className="flex items-baseline justify-between mb-2">
         <h1 className="text-2xl font-bold mono">{req.id}</h1>
-        <div className="flex gap-2"><StateChip state={req.state} /><EvidenceChip evidence={req.evidence} /></div>
+        <StateChip state={req.state} />
       </div>
       <p className="text-sm text-black/60 mb-6">{hub?.name} · {req.changeType} · submitted by {req.submittedBy}</p>
 

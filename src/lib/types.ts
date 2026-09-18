@@ -207,8 +207,18 @@ export interface DraftRequest {
   negotiatedOn: string;
   vendorSupplierNumber?: string;
   remarks: string;
+  /** SC-only — user's picked sub-type combination (may narrow the hub's default). */
+  scSubTypes?: ScSubType[];
   /** FR-24 — mandatory per-tier explanations when abnormal-rate band flags a value. */
   abnormalReasons?: Record<number, string>;
+}
+
+/** Persisted, editable draft — pre-submission. Different from RateRequest{state:'Draft'}. */
+export interface SavedDraft extends DraftRequest {
+  id: string;
+  createdAt: string;
+  updatedAt: string;
+  submittedBy: string;
 }
 
 export interface DelegationRow {

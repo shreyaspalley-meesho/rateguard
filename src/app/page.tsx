@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useApp } from '@/lib/store';
 import { personaById } from '@/lib/personas';
-import { StateChip, EvidenceChip } from '@/components/Chip';
+import { StateChip } from '@/components/Chip';
 import { format, formatDistanceToNow } from 'date-fns';
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
 
   const executed = requests.filter(r => r.state === 'Executed').length;
   const pending = requests.filter(r => r.state === 'Pending').length;
-  const awaiting = requests.filter(r => r.state === 'Approved' && r.evidence === 'Awaiting').length;
+  const awaiting = requests.filter(r => r.state === 'Approved').length;
 
   return (
     <div className="max-w-6xl">
@@ -71,7 +71,7 @@ export default function Home() {
           </div>
           {mine.length === 0 ? <div className="p-6 text-sm text-black/50">No requests yet. Start with <Link href="/submit" className="text-[#580A46] underline">Submit rate</Link>.</div> : (
             <table className="data">
-              <thead><tr><th>ID</th><th>Hub</th><th>Type</th><th>State</th><th>Evidence</th><th></th></tr></thead>
+              <thead><tr><th>ID</th><th>Hub</th><th>Type</th><th>State</th><th></th></tr></thead>
               <tbody>
                 {mine.slice(0, 5).map(r => (
                   <tr key={r.id}>
@@ -79,7 +79,6 @@ export default function Home() {
                     <td>{r.hubCode}</td>
                     <td>{r.changeType}</td>
                     <td><StateChip state={r.state} /></td>
-                    <td><EvidenceChip evidence={r.evidence} /></td>
                     <td><Link className="text-[#580A46] font-semibold" href={`/requests`}>Open →</Link></td>
                   </tr>
                 ))}
@@ -98,7 +97,7 @@ export default function Home() {
           <div className="p-4 grid grid-cols-3 gap-4 text-sm">
             <div><div className="text-black/55 text-xs uppercase tracking-wider mb-1">Payable</div><div className="text-2xl font-bold num">{requests.filter(r => r.state === 'Executed').length}</div></div>
             <div><div className="text-black/55 text-xs uppercase tracking-wider mb-1">Provisional</div><div className="text-2xl font-bold num">{awaiting}</div></div>
-            <div><div className="text-black/55 text-xs uppercase tracking-wider mb-1">Exceptions</div><div className="text-2xl font-bold num text-[#C42B1C]">{requests.filter(r => r.evidence === 'Mismatch').length}</div></div>
+            <div><div className="text-black/55 text-xs uppercase tracking-wider mb-1">Rejected</div><div className="text-2xl font-bold num text-[#C42B1C]">{requests.filter(r => r.state === 'Rejected').length}</div></div>
           </div>
         </section>
       )}

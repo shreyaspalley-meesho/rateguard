@@ -10,7 +10,7 @@ export default function Controllership() {
   const vendors = useApp(s => s.vendors);
 
   const feed = reqs
-    .filter(r => r.state === 'Executed' || (r.state === 'Approved' && r.evidence === 'Awaiting'))
+    .filter(r => r.state === 'Executed' || r.state === 'Approved')
     .map(r => {
       const h = hubs.find(hb => hb.code === r.hubCode);
       const vendor = r.vendorSupplierNumber ? vendors.find(v => v.supplierNumber === r.vendorSupplierNumber) : undefined;
@@ -20,7 +20,7 @@ export default function Controllership() {
     });
 
   const variance = feed.filter(f => f.bucket === 'Provisional');
-  const mismatches = reqs.filter(r => r.evidence === 'Mismatch' || r.evidence === 'Overridden');
+  const rejected = reqs.filter(r => r.state === 'Rejected').length;
 
   function exportCsv() {
     const rows = [
@@ -48,7 +48,7 @@ export default function Controllership() {
       <div className="grid grid-cols-3 gap-4 mb-6">
         <Stat label="Payable" value={feed.filter(f => f.bucket === 'Payable').length} tone="green" />
         <Stat label="Provisional (booked, not payable)" value={variance.length} tone="amber" />
-        <Stat label="Exceptions" value={mismatches.length} tone="red" />
+        <Stat label="Rejected" value={rejected} tone="red" />
       </div>
 
       <section className="card mb-6 overflow-hidden">
@@ -74,26 +74,6 @@ export default function Controllership() {
         </table>
       </section>
 
-      <section className="card overflow-hidden">
-        <div className="p-4 border-b border-black/8"><h2 className="font-semibold text-sm">Exceptions</h2></div>
-        {mismatches.length === 0 ? (
-          <div className="p-8 text-center text-black/50 text-sm">No exceptions — clean close.</div>
-        ) : (
-          <table className="data">
-            <thead><tr><th>ID</th><th>Hub</th><th>Evidence</th><th>Override reason</th></tr></thead>
-            <tbody>
-              {mismatches.map(m => (
-                <tr key={m.id}>
-                  <td className="mono text-[11.5px]">{m.id}</td>
-                  <td>{m.hubCode}</td>
-                  <td>{m.evidence}</td>
-                  <td className="text-[12px] text-black/70">{m.overrideReason ?? '—'}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        )}
-      </section>
     </div>
   );
 }

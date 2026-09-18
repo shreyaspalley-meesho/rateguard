@@ -1,7 +1,7 @@
 'use client';
 
 import { useApp } from '@/lib/store';
-import { StateChip, EvidenceChip } from '@/components/Chip';
+import { StateChip } from '@/components/Chip';
 import { format } from 'date-fns';
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
@@ -178,7 +178,6 @@ function ProjectionCard({ title, subtitle, req, sameAsOther, tone }: {
           </div>
           <div className="mt-2.5 flex items-center gap-1.5 flex-wrap">
             <StateChip state={req.state} />
-            <EvidenceChip evidence={req.evidence} />
             <span className={`mono text-[10px] ${fg}`}>{sameAsOther ? 'Current' : 'Different'}</span>
           </div>
         </>
@@ -223,7 +222,6 @@ function TimelineRow({ req, vendorName, vendorNo, asOf, isLast }: {
           </div>
           <div className="flex items-center gap-1.5 flex-wrap mt-1">
             <StateChip state={req.state} />
-            <EvidenceChip evidence={req.evidence} />
             {tier1 !== undefined && (
               <span className="ml-auto mono font-bold text-[14px] text-black md:hidden">₹{tier1.toFixed(2)}<span className="text-[9.5px] text-black/50 font-normal ml-1">T1</span></span>
             )}
